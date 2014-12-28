@@ -1,0 +1,7 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+ErrorDocument 404 /404.html
+ErrorDocument 403 http://vcuculo.com/
+
+Options -Indexes
