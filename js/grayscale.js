@@ -5,23 +5,32 @@ $(window).scroll(function() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+
+    if ($(window).scrollTop() + $(window).height() > $(document).height() - ($('#how').height() / 2)) {
+        $('#last-btn').attr("href", "#who");
+    } else {
+        $('#last-btn').attr("href", "#how");;
+    }
+
 });
 
-$('.navbar-brand').on('touchstart mouseenter', function () {
-      $('#cuckoo').stop().animate({"left": "0px"}, 2000);
-    }
-);
+$('.navbar-brand').on('touchstart mouseenter', function() {
+    $('#cuckoo').stop().animate({
+        "left": "0px"
+    }, 2000);
+});
 
-$('.navbar-brand').on('touchend mouseleave', function () {
-      $('#cuckoo').stop().animate({"left": "-200px"}, 2000);
-    }
-);
+$('.navbar-brand').on('touchend mouseleave', function() {
+    $('#cuckoo').stop().animate({
+        "left": "-200px"
+    }, 2000);
+});
 
 $(function() {
     $('.page-scroll a').bind('click', function(event) {
         var target = $(this).attr("href");
         $('html, body').animate({
-          scrollTop: $(target).offset().top
+            scrollTop: $(target).offset().top
         }, 2000);
         event.preventDefault();
     });
@@ -29,75 +38,100 @@ $(function() {
     $('.portfolio-wrapper').bind('click', function(event) {
         var target = $(this).attr("href");
         if (target != null)
-          window.open(target);
+            window.open(target);
         event.preventDefault();
     });
 });
 
-$(function () {
+$(function() {
 
-var filterList = {
+    var filterList = {
 
-    init       : function () {
+        init: function() {
 
-      // MixItUp plugin
-      // http://mixitup.io
-      $('#portfoliolist').mixitup({
-        targetSelector: '.portfolio',
-        filterSelector: '.filter',
-        effects       : ['fade'],
-        easing        : 'snap',
-        // call the hover effect
-        onMixEnd      : filterList.hoverEffect()
-      });
+            // MixItUp plugin
+            // http://mixitup.io
+            $('#portfoliolist').mixitup({
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
+                effects: ['fade'],
+                easing: 'snap',
+                // call the hover effect
+                onMixEnd: filterList.hoverEffect()
+            });
 
-    },
-    hoverEffect: function () {
+        },
+        hoverEffect: function() {
 
-      // Simple parallax effect
-      $('#portfoliolist .portfolio').on('touchstart mouseenter', function () {
-        $(this).find('.work-label').stop().animate({
-          bottom: 0
-        }, 200);
-        $(this).find('img').stop().animate({
-          top: -15
-        }, 500);
-      });
+            // Simple parallax effect
+            $('#portfoliolist .portfolio').on('touchstart mouseenter', function() {
+                $(this).find('.work-label').stop().animate({
+                    bottom: 0
+                }, 200);
+                $(this).find('img').stop().animate({
+                    top: -15
+                }, 500);
+            });
 
-      $('#portfoliolist .portfolio').on('touchend mouseleave', function () {
-        $(this).find('.work-label').stop().animate({
-          bottom: -100
-        }, 200);
-        $(this).find('img').stop().animate({
-          top: 0
-        }, 300);
-      });
+            $('#portfoliolist .portfolio').on('touchend mouseleave', function() {
+                $(this).find('.work-label').stop().animate({
+                    bottom: -100
+                }, 200);
+                $(this).find('img').stop().animate({
+                    top: 0
+                }, 300);
+            });
 
-    }
+        }
 
-  };
+    };
 
-// Run the show!
-filterList.init();
+    // Run the show!
+    filterList.init();
 });
 
 $(document).ready(function() {
     var scrollorama = $.scrollorama({
-        blocks:'.row',
+        blocks: '.row',
         enablePin: false
     });
     scrollorama
-    .animate('#milan',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'top', start:-$(window).height(), end:0 })
-    .animate('#dot',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'left', start:-$(window).width(), end:0 })
-    .animate('#unimi',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'right', start:-$(window).width(), end:0 })
-
-    .animate('#email',{ delay: 0, duration: $("#how").height(), property:'left', start:-$(window).width(), end:0 })
-    .animate('#twitter',{ delay: 0, duration: $("#how").height(), property:'right', start:-$(window).width(), end:0 });
-
-    //.animate('#portfoliolist',{ delay: 100, duration: $(window).height()-100, property:'left', start:-$("#what").width(), end:0 });
+        .animate('#milan', {
+            delay: $(window).height() / 2,
+            duration: $(window).height() - 400,
+            property: 'top',
+            start: -$(window).height(),
+            end: 0
+        })
+        .animate('#dot', {
+            delay: $(window).height() / 2,
+            duration: $(window).height() - 400,
+            property: 'left',
+            start: -$(window).width(),
+            end: 0
+        })
+        .animate('#unimi', {
+            delay: $(window).height() / 2,
+            duration: $(window).height() - 400,
+            property: 'right',
+            start: -$(window).width(),
+            end: 0
+        })
+        .animate('#last-btn', {
+            delay: $('#what').height() + 70,
+            duration: $('#how').height(),
+            property: 'rotate',
+            start: 0,
+            end: 180
+        })
+        .animate('#portfoliolist', {
+            delay: 100,
+            duration: $(window).height() - 100,
+            property: 'opacity',
+            start: 0
+        });
 });
 
-window.onorientationchange = function()
-{
-   window.location.reload();
+window.onorientationchange = function() {
+    window.location.reload();
 };
