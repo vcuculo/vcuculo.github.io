@@ -34,13 +34,6 @@ $(function() {
         }, 2000);
         event.preventDefault();
     });
-
-    $('.portfolio-wrapper').bind('click', function(event) {
-        var target = $(this).attr("href");
-        if (target != null)
-          window.open(target);
-        event.preventDefault();
-    });
 });
 
 $(function () {
@@ -99,9 +92,6 @@ $(document).ready(function() {
     .animate('#milan',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'top', start:-$(window).height(), end:0 })
     .animate('#dot',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'left', start:-$(window).width(), end:0 })
     .animate('#unimi',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'right', start:-$(window).width(), end:0 })
-    //.animate('#email',{ delay: 0, duration: $("#how").height(), property:'left', start:-$(window).width(), end:0 })
-    //.animate('#twitter',{ delay: 0, duration: $("#how").height(), property:'right', start:-$(window).width(), end:0 });
-
     .animate('#portfoliolist',{delay: 100, duration: $(window).height()-100, property:'opacity', start:0 });
 });
 
