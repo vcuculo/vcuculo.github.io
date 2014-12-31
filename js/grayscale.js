@@ -89,9 +89,9 @@ $(document).ready(function() {
         enablePin: false
     });
     scrollorama
-    .animate('#milan',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'top', start:-$(window).height(), end:0 })
-    .animate('#dot',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'left', start:-$(window).width(), end:0 })
-    .animate('#unimi',{ delay: $(window).height()/2, duration: $(window).height()-400, property:'right', start:-$(window).width(), end:0 })
+    .animate('#milan',{ delay: $(window).height()/2, duration: $(window).height()/2, property:'top', start:-$(window).height(), end:0 })
+    .animate('#dot',{ delay: $(window).height()/2, duration: $(window).height()/2, property:'left', start:-$(window).width(), end:0 })
+    .animate('#unimi',{ delay: $(window).height()/2, duration: $(window).height()/2, property:'right', start:-$(window).width(), end:0 })
     .animate('#portfoliolist',{delay: 100, duration: $(window).height()-100, property:'opacity', start:0 });
 });
 
