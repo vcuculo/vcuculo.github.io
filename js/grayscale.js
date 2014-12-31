@@ -16,12 +16,12 @@ $(window).scroll(function() {
 
 });
 
-$('.navbar-brand').on('touchstart mouseenter', function () {
+$('#surname').on('touchstart mouseenter', function () {
       $('#cuckoo').stop().animate({"left": "0px"}, 2000);
     }
 );
 
-$('.navbar-brand').on('touchend mouseleave', function () {
+$('#surname').on('touchend mouseleave', function () {
       $('#cuckoo').stop().animate({"left": "-200px"}, 2000);
     }
 );
