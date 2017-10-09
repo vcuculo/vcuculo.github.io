@@ -499,7 +499,7 @@ body {
 
 #noface {
     position: fixed;
-    top: 50px;
+    top: 100px;
     z-index: 20;
     display: none;
 }
