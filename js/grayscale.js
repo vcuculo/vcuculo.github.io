@@ -134,11 +134,11 @@ function gumSuccess( stream ) {
         vid.src = (window.URL && window.URL.createObjectURL(stream));
     }
     vid.onloadedmetadata = function() {
-        adjustVideoProportions();
+        //adjustVideoProportions();
         vid.play();
     }
     vid.onresize = function() {
-        adjustVideoProportions();
+        //adjustVideoProportions();
         if (trackingStarted) {
             ctrack.stop();
             ctrack.reset();
