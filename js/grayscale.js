@@ -183,6 +183,7 @@ function turnOnLight() {
   if (!light){
     ctrack.stop();
     $('#fadeMe').animate({opacity: 0, filter: 'alpha(opacity=0)'}); // IE fallback
+    $('#noface').hide();
     $('.fa-lightbulb-o').css('color','yellow');
     $('.fa-lightbulb-o').removeClass('fa-spin');
     light = true;
@@ -211,7 +212,7 @@ function drawLoop() {
         var element = document.getElementById('fadeMe');
 
         if (ctrack.getScore() > 0.5) {
-          $('#noface').hide();          
+          $('#noface').hide();
           $('#fadeMe').css('opacity', value, 'filter', 'alpha(opacity=' + value + ')');
         } else {
           $('#noface').show();
