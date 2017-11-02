@@ -503,6 +503,7 @@ body {
     left: 50px;
     z-index: 20;
     display: none;
+    line-height: 1.75em;
 }
 
 [data-tooltip]:before {
