@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+Below is a selection of works I've done in recent years both as academic and as interaction developer.<br>
+
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+

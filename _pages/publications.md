@@ -11,6 +11,4 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<script src="http://bibbase.org/show?bib=https://raw.githubusercontent.com/vcuculo/vcuculo.github.io/master/publications.bib&jsonp=1"></script> 

@@ -15,7 +15,12 @@
   }
 
   a {
-    color: inherit;
+    color: $info-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    font-weight: bolder;
     text-decoration: none;
   }
 }
