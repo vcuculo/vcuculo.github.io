@@ -18,7 +18,7 @@ For a test demo, go to the following link:
 
 [http://phuselab.di.unimi.it/DANTE/index.php?id=3497&vid=30_3.mp4&type=arousal](http://phuselab.di.unimi.it/DANTE/index.php?id=3497&vid=30_3.mp4&type=arousal)
 
-<img src="https://github.com/phuselab/DANTE/raw/master/img/dante2.png"  width="80%">
+<img src="/images/projects/dante2.png"  width="80%">
 
 ### Code
 
