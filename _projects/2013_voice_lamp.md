@@ -18,7 +18,10 @@ Currently it works only for **Italian** and **English** language, and supports t
 **en** : red, green, blue, yellow, cyan, magenta, white, turn off  
 **it** : rosso, verde, blu, giallo, ciano, magenta, bianco, spegni
 
+### Video
 
-**Video** [https://vimeo.com/64225577](https://vimeo.com/64225577)
+[![Voice Lamp](https://i.vimeocdn.com/video/434788273_640.webp)](https://vimeo.com/64225577)
 
-**Code** [https://github.com/vcuculo/voicelamp](https://github.com/vcuculo/voicelamp)
+### Code
+
+[https://github.com/vcuculo/voicelamp](https://github.com/vcuculo/voicelamp)

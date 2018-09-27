@@ -23,8 +23,7 @@ The lamp, made with Arduino, change its color to represent the user's current em
 
 ### Reports
 
-[ENG] http://www.vcuculo.com/files/moodlamp_eng.pdf  
-[ITA] http://www.vcuculo.com/files/moodlamp.pdf  
+[[ENG](http://www.vcuculo.com/files/moodlamp_eng.pdf), [ITA](http://www.vcuculo.com/files/moodlamp.pdf)]
 
 ### Related publication
 
