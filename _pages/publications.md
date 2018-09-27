@@ -11,4 +11,4 @@ author_profile: true
 
 {% include base_path %}
 
-<script src="http://bibbase.org/show?bib=https://vcuculo.github.io/files/publications.bib&jsonp=1"></script> 
+<script src="https://bibbase.org/show?bib=https://vcuculo.github.io/files/publications.bib&jsonp=1"></script> 
