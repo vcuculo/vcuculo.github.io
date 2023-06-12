@@ -1,0 +1,28 @@
+:root {
+	/* CSS HEX */
+	--onyx: #393d3fff;
+	--white: #fdfdffff;
+	--silver: #c6c5b9ff;
+	--blue-munsell: #62929eff;
+	--paynes-gray: #546a7bff;
+}
+
+.bg-news-when {
+	background-color: var(--blue-munsell);
+}
+
+.bg-news-where {
+	background-color: var(--paynes-gray);
+}
+
+.bg-onyx {
+	background-color: var(--onyx);
+}
+
+.bg-white {
+	background-color: var(--white);
+}
+
+.text-silver {
+ 	color: var(--silver);
+}
