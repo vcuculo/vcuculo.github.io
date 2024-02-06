@@ -1,0 +1,53 @@
+- academic_year: 2023/24
+  semester: I
+  name: IOT and 3D Intelligent Systems
+  where: Department of Engineering, University of Modena and Reggio Emilia
+  link: https://moodle.unimore.it/course/view.php?id=11263
+
+- academic_year: 2023/24
+  semester: II
+  name: Computer Vision and Cognitive Systems
+  where: Department of Engineering, University of Modena and Reggio Emilia
+  link:
+
+- academic_year: 2023/24
+  semester: II
+  name: Programmazione di Sistema
+  where: Department of Engineering, University of Modena and Reggio Emilia
+  link: https://moodle.unimore.it/course/view.php?id=11263
+
+- academic_year: 2022/23
+  semester: II
+  name: Statistica e analisi dei dati
+  where: Department of Computer Science, University of Milan
+  link: https://gboccignonesad.ariel.ctu.unimi.it/
+
+- academic_year: 2021/22
+  semester: II
+  name: "Intelligenza artificiale e intelligenza umana: il presente e il futuro delle scienze cognitive"
+  where: Master in Cognitive Sciences and Decisional Processes, University of Milan
+  link: https://iaiupfsccdlsco.ariel.ctu.unimi.it/
+
+- academic_year: 2021/22
+  semester: I
+  name: Statistica e analisi dei dati
+  where: Department of Computer Science, University of Milan
+  link: https://gboccignonesad.ariel.ctu.unimi.it/
+
+- academic_year: 2020/21
+  semester: II
+  name: Statistica e analisi dei dati
+  where: Department of Computer Science, University of Milan
+  link: https://gboccignonesad.ariel.ctu.unimi.it/
+
+- academic_year: 2019/20
+  semester: I
+  name: Statistica e analisi dei dati
+  where: Department of Computer Science, University of Milan
+  link: https://vcuculosad.ariel.ctu.unimi.it/
+
+- academic_year: 2018/19
+  semester: I and II
+  name: Gestione delle informazioni e web
+  where: Department of Historical Studies, University of Milan
+  link: http://3cfuinformatica.unimi.it/

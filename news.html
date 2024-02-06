@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: News Archive
 ---
 
 <!DOCTYPE html>
@@ -30,27 +30,22 @@ title: Teaching
                 </div>
                 <div class="col-lg-10 col-md-8 col-12">
                     <!-- Post content-->
-                    <article>
-                        <h2 class="fw-bold mb-4">Teaching</h2>
+                  <h2 class="fw-bold mb-4">News Archive</h2>
 
-                          {% assign grouped_courses = site.data.courses | group_by: 'academic_year' %}
-
-                          {% for academic_year_courses in grouped_courses %}
-                            <h5>{{ academic_year_courses.name }}</h5>
-
-                            {% for course in academic_year_courses.items %}
-                              <p>  
-                                <b>{{ course.name }} ({{ course.semester }} semester)</b><br>
-                                {{ course.where }}<br>
-                                <a href="{{ course.link }}">Course website</a>
+                  <ul class="list-group list-group-flush">
+                    {% assign latestNews = site.data.news | sort: 'date' | reverse %}
+                      {% for news in latestNews %}
+                          <li class="list-group-item">
+                              <a class="badge bg-news-when text-decoration-none link-light">{{ news.date | date_to_string: "ordinal" }}</a>
+                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag1 }}</a>
+                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag2 }}</a>
+                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag3 }}</a>                            
+                              <p class="mb-2 mt-2">
+                                  {{ news.content }}
                               </p>
-
-                              {% if forloop.last == true %}
-                                <hr>
-                              {% endif %}
-                            {% endfor %}
-                          {% endfor %}
-                    </article>
+                          </li>
+                      {% endfor %}
+                  </ul>
                 </div>
             </div>
         </div>
