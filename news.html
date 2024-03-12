@@ -18,19 +18,24 @@ title: News Archive
                 </div>
                 <div class="col-lg-10 col-md-8 col-12">
                     <!-- Post content-->
-                  <h2 class="fw-bold mb-4">News Archive</h2>
+                  <h2 class="fw-bold mb-4">News</h2>
 
                   <ul class="list-group list-group-flush">
                     {% assign latestNews = site.data.news | sort: 'date' | reverse %}
                       {% for news in latestNews %}
                           <li class="list-group-item">
-                              <a class="badge bg-news-when text-decoration-none link-light">{{ news.date | date_to_string: "ordinal" }}</a>
-                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag1 }}</a>
-                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag2 }}</a>
-                              <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag3 }}</a>                            
-                              <p class="mb-2 mt-2">
-                                  {{ news.content }}
-                              </p>
+                            <div class="row">
+                                <div class="col-md-2">
+                                  <a class="badge bg-news-when text-decoration-none link-light">{{ news.date | date_to_string: "ordinal" }}</a><br>
+                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag1 }}</a>
+                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag2 }}</a>
+                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag3 }}</a>
+                                </div>
+                                <div class="col-md-10">
+                                  <p class="mb-2 mt-2">
+                                      {{ news.content }}
+                                  </p>
+                                </div>
                           </li>
                       {% endfor %}
                   </ul>
