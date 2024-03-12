@@ -26,7 +26,7 @@
   tag1: ICIAP 2023
   tag2: Tutorial
   tag3: RPM
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     We are organizing a tutorial titled <a href="https://sites.google.com/view/iciap2023tutorial-rps" target="_blank">"Remote Physiological Sensing: State of the Art and Applications"</a> which will take place on September 15th at <b>ICIAP 2023</b> in Udine, Italy.
 
