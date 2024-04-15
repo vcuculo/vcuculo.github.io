@@ -1,7 +1,14 @@
+- date: 2024-04-12
+  tag1: ECCV 2024
+  tag2: Workshop
+  show_on_homepage: true
+  content: >-
+    We are organizing the first Workshop on <b>Human-inspired Computer Vision</b>, which will be held in September in Milan in conjunction with <b>ECCV 2024</b>. More information soon.
+
 - date: 2024-02-11
   tag1: IEEE SPL
   tag2: Paper
-  tag3: Gaze
+  tag3: HVA
   show_on_homepage: true
   content: >-
     Our paper <b>Unveiling the Truth: Exploring Human Gaze Patterns in Fake Images</b> has just been published on <b>IEEE Signal Processing Letters</b>. Read the full paper <a href="https://ieeexplore.ieee.org/document/10465604" target="_blank">here</a>.
@@ -9,7 +16,7 @@
 - date: 2024-01-29
   tag1: Project ARIA
   tag2: Partnership
-  tag3: Gaze
+  tag3: HVA
   show_on_homepage: true
   content: >-
     Accepted as <b>academic partner</b> for the <a href="https://www.projectaria.com/" target="_blank">Project ARIA</a> research program of <a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a> <i class="fa-solid fa-glasses"></i>. It will help to advance the research on Human Gaze Assisted Artificial Intelligence!
@@ -17,7 +24,6 @@
 - date: 2023-11-23
   tag1: ACMMM 2024
   tag2: Conference
-  tag3:
   show_on_homepage: true
   content: >-
     I will serve as Area Chair for the 32nd <b>ACM International Conference on Multimedia (ACM MM 2024)</b>. Visit the <a href="https://2024.acmmm.org/" target="_blank">website</a> for more information.
@@ -33,7 +39,6 @@
 - date: 2023-05-05
   tag1: ACMMM 2023
   tag2: Conference
-  tag3:
   show_on_homepage: false
   content: >-
     I am serving as Area Chair for the 31st <b>ACM International Conference on Multimedia (ACM MM 2023)</b>. Visit the <a href="https://www.acmmm2023.org" target="_blank">website</a> for more information.
@@ -41,8 +46,8 @@
 - date: 2023-05-04
   tag1: ICIAP 2023
   tag2: Workshop
-  tag3: Gaze
-  show_on_homepage: true
+  tag3: HVA
+  show_on_homepage: false
   content: >-
     We are organizing the first International Workshop on Advances in Gaze Analysis, Visual attention and Eye-gaze modelling (AGAVE), which will be held on September 11th, in conjunction with <b>ICIAP 2023</b>. See the <a href="https://sites.google.com/view/agave2023/">website</a> for more. Paper submission deadline is <b>July 7, 2023</b>.
 
