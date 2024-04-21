@@ -1,3 +1,11 @@
+- date: 2024-04-20
+  tag1: IJCAI 2024
+  tag2: Paper
+  tag3: HVA
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Trends, Applications, and Challenges in Human Attention Modelling</b> has been accepted at <b>IJCAI 2024</b> conference in the Survey Track. Read the preprint <a href="https://arxiv.org/abs/2402.18673" target="_blank">here</a>.
+
 - date: 2024-04-12
   tag1: ECCV 2024
   tag2: Workshop
@@ -63,6 +71,6 @@
   tag1: BSPCJ
   tag2: Special Issue
   tag3: RPM
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I am serving as Guest Editor for the Special Issue titled <a href="https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/special-issue/10KF5VGF0XW" target="_blank">"Remote Physiological Measurement: Novel algorithms and application areas"</a> on the <b>Biomedical Signal Processing and Control Journal</b> (IF 5.076). The deadline for paper submissions is <s>September 3, 2023</s> <b>extended to December 5, 2023</b>.
