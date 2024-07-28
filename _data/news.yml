@@ -1,3 +1,17 @@
+- date: 2024-07-23
+  tag1: IJCAI 2024
+  tag2: Conference
+  show_on_homepage: true
+  content: >-
+    I will serve as <b>Session Chair</b> for the 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024).
+
+- date: 2024-07-17
+  tag1: Springer APIN
+  tag2: Journal
+  show_on_homepage: true
+  content: >-
+    Joined the Editorial Board of <a href="https://link.springer.com/journal/10489/editors" target="_blank">Springer Applied Intelligence</a> journal as <b>Associate Editor</b>.
+
 - date: 2024-06-03
   tag1: SAC 2025
   tag2: Conferece
@@ -24,7 +38,7 @@
   tag1: IEEE SPL
   tag2: Paper
   tag3: HVA
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>Unveiling the Truth: Exploring Human Gaze Patterns in Fake Images</b> has just been published on <b>IEEE Signal Processing Letters</b>. Read the full paper <a href="https://ieeexplore.ieee.org/document/10465604" target="_blank">here</a>.
 
@@ -39,7 +53,7 @@
 - date: 2023-11-23
   tag1: ACMMM 2024
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I will serve as Area Chair for the 32nd <b>ACM International Conference on Multimedia (ACM MM 2024)</b>. Visit the <a href="https://2024.acmmm.org/" target="_blank">website</a> for more information.
 
