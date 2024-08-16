@@ -1,16 +1,25 @@
+- date: 2024-08-16
+  tag1: ECCV 2024
+  tag2: Workshop
+  tag3: Paper
+  tag4: HVA  
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Pixels of Faith: Exploiting Visual Saliency to Detect Religious Image Manipulation</b> has been accepted at the <a href="https://sites.google.com/view/ai4dh2024" target="_blank">AI4DH Workshop</a>, which will be held in conjunction with <b>ECCV 2024</b>.
+
 - date: 2024-08-07
   tag1: IRCDL 2025
   tag2: Conference
   show_on_homepage: true
   content: >-
-    I serve as <b>Publicity Chair</b> for the 21st <a href="https://ircdl2025.uniud.it/" target="_blank">Conference on Information and Research Science Connecting to Digital and Library Science</a> (IRCDL 2025).
+    I serve as <b>Publicity Chair</b> for the 21st <a href="https://ircdl2025.uniud.it/" target="_blank">Conference on Information and Research Science Connecting to Digital and Library Science</a> (<b>IRCDL 2025</b>).
 
 - date: 2024-07-23
   tag1: IJCAI 2024
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
-    I will serve as <b>Session Chair</b> for the 33rd <a href="https://ijcai24.org/" target="_blank">International Joint Conference on Artificial Intelligence</a> (IJCAI 2024).
+    I will serve as <b>Session Chair</b> for the 33rd <a href="https://ijcai24.org/" target="_blank">International Joint Conference on Artificial Intelligence</a> (<b>IJCAI 2024</b>).
 
 - date: 2024-07-17
   tag1: Springer APIN
