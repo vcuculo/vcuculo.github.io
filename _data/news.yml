@@ -1,3 +1,11 @@
+- date: 2024-10-14
+  tag1: IJHCI
+  tag2: Paper
+  tag3: AC
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Predicting engagement of older people’s virtual teams from video call analysis</b> has been accepted for publication on the <b>International Journal of Human-Computer Interaction</b>.
+
 - date: 2024-08-16
   tag1: ECCV 2024
   tag2: Workshop
@@ -10,7 +18,7 @@
 - date: 2024-08-07
   tag1: IRCDL 2025
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I serve as <b>Publicity Chair</b> for the 21st <a href="https://ircdl2025.uniud.it/" target="_blank">Conference on Information and Research Science Connecting to Digital and Library Science</a> (<b>IRCDL 2025</b>).
 
@@ -62,7 +70,7 @@
   tag1: Project ARIA
   tag2: Partnership
   tag3: HVA
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Accepted as <b>academic partner</b> for the <a href="https://www.projectaria.com/" target="_blank">Project ARIA</a> research program of <a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a> <i class="fa-solid fa-glasses"></i>. It will help to advance the research on Human Gaze Assisted Artificial Intelligence!
 
