@@ -1,3 +1,11 @@
+- date: 2024-10-30
+  tag1: WACV 2025
+  tag2: Paper
+  tag3: HVA
+  show_on_homepage: true
+  content: >-
+    Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processe</b> has been accepted to <b>WACV 2025</b> conference in the Algorithms Track.
+
 - date: 2024-10-28
   tag1: ACMMM 2024
   tag2: Conference
@@ -11,16 +19,16 @@
   tag3: AC
   show_on_homepage: true
   content: >-
-    Our paper <b>Predicting engagement of older people’s virtual teams from video call analysis</b> has been accepted for publication on the <b>International Journal of Human-Computer Interaction</b>.
+    Our paper <b>Predicting engagement of older people’s virtual teams from video call analysis</b> has been accepted for publication in the <b>International Journal of Human-Computer Interaction</b>.
 
 - date: 2024-08-16
   tag1: ECCV 2024
   tag2: Workshop
   tag3: Paper
   tag4: HVA  
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
-    Our paper <b>Pixels of Faith: Exploiting Visual Saliency to Detect Religious Image Manipulation</b> has been accepted at the <a href="https://sites.google.com/view/ai4dh2024" target="_blank">AI4DH Workshop</a>, which will be held in conjunction with <b>ECCV 2024</b>.
+    Our paper <b>Pixels of Faith: Exploiting Visual Saliency to Detect Religious Image Manipulation</b> has been accepted to the <a href="https://sites.google.com/view/ai4dh2024" target="_blank">AI4DH Workshop</a>, which will be held in conjunction with <b>ECCV 2024</b>.
 
 - date: 2024-08-07
   tag1: IRCDL 2025
@@ -56,7 +64,7 @@
   tag3: HVA
   show_on_homepage: true
   content: >-
-    Our survey <b>Trends, Applications, and Challenges in Human Attention Modelling</b> has been accepted at <b>IJCAI 2024</b> conference in the Survey Track. Read the proceeding <a href="https://www.ijcai.org/proceedings/2024/882" target="_blank">here</a>.
+    Our survey <b>Trends, Applications, and Challenges in Human Attention Modelling</b> has been accepted to <b>IJCAI 2024</b> conference in the Survey Track. Read the proceeding <a href="https://www.ijcai.org/proceedings/2024/882" target="_blank">here</a>.
 
 - date: 2024-04-12
   tag1: ECCV 2024
