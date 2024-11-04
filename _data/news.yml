@@ -1,10 +1,18 @@
+- date: 2024-11-04
+  tag1: BSPC
+  tag2: Paper
+  tag3: RPM
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Enhancing rPPG Pulse-Signal Recovery by Facial Sampling and PSD Clustering</b> has been accepted for publication in the <b>Biomedical Signal Processing and Control</b> journal.
+
 - date: 2024-10-30
   tag1: WACV 2025
   tag2: Paper
   tag3: HVA
   show_on_homepage: true
   content: >-
-    Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processe</b> has been accepted to <b>WACV 2025</b> conference in the Algorithms Track.
+    Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processe</b> has been accepted to <b>WACV 2025</b> conference in the Algorithms Track. <a href="https://github.com/phuselab/tppgaze" target="_blank">Github</a> and <a href="https://arxiv.org/abs/2410.23409" target="_blank">arXiv</a>.
 
 - date: 2024-10-28
   tag1: ACMMM 2024
@@ -69,7 +77,7 @@
 - date: 2024-04-12
   tag1: ECCV 2024
   tag2: Workshop
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     We are organizing the first Workshop on <b>Human-inspired Computer Vision</b>, which will be held in September in Milan in conjunction with <b>ECCV 2024</b>. Visit the <a href="https://sites.google.com/view/hcvworkshop2024/" target="_blank">website</a> for more information.
 
