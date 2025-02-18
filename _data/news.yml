@@ -1,3 +1,10 @@
+- date: 2025-02-18
+  tag1: ACMMM 2025
+  tag2: Conference
+  show_on_homepage: true
+  content: >-
+    I will serve as Area Chair for the 33rd <b>ACM International Conference on Multimedia (ACM MM 2025)</b>. Visit the <a href="https://2025.acmmm.org/" target="_blank">website</a> for more information.
+
 - date: 2025-01-16
   tag1: WACV 2025
   tag2: Conference
@@ -32,7 +39,7 @@
   tag1: IJHCI
   tag2: Paper
   tag3: AC
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>Predicting engagement of older people’s virtual teams from video call analysis</b> has been accepted for publication in the <b>International Journal of Human-Computer Interaction</b>. Read the full paper <a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2423107" target="_blank">here</a>.
 
