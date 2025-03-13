@@ -1,3 +1,10 @@
+- date: 2025-03-07
+  tag1: Academic
+  tag2: Qualification
+  show_on_homepage: true
+  content: >-
+    Achieved the <b>National Scientific Qualification as Associate Professor</b> for the disciplinary field <b>01/B1 - Informatics</b>.
+
 - date: 2025-02-18
   tag1: ACMMM 2025
   tag2: Conference
@@ -31,7 +38,7 @@
 - date: 2024-10-28
   tag1: ACMMM 2024
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I have been nominated as <b>Outstanding Area Chair</b> of <a href="https://2024.acmmm.org/outstanding-ac-reviewer" target="_blank">ACM Multimedia 2024</a> conference.
 
@@ -69,7 +76,7 @@
 - date: 2024-07-17
   tag1: Springer APIN
   tag2: Journal
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Joined the Editorial Board of <a href="https://link.springer.com/journal/10489/editors" target="_blank">Springer Applied Intelligence</a> journal as <b>Associate Editor</b>.
 
