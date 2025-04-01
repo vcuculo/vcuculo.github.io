@@ -1,3 +1,10 @@
+- date: 2025-04-01
+  tag1: IJCNN
+  tag2: Paper
+  show_on_homepage: true
+  content: >-
+    The paper <b>ECoGNet: an EEG-based Effective Connectivity Graph Neural Network for Brain Disorder Detection</b> has been accepted to the International Joint Conference on Neural Networks <b>(IJCNN 2025)</b>.
+
 - date: 2025-03-07
   tag1: Academic
   tag2: Qualification
@@ -31,7 +38,7 @@
   tag1: WACV 2025
   tag2: Paper
   tag3: HVA
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processes</b> has been accepted to <b>WACV 2025</b> conference. See <a href="https://github.com/phuselab/tppgaze" target="_blank">Github</a> and <a href="https://arxiv.org/abs/2410.23409" target="_blank">arXiv</a>.
 
