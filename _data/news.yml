@@ -1,3 +1,11 @@
+- date: 2025-04-11
+  tag1: ICIAP 2025
+  tag2: Workshop
+  tag3: AC
+  show_on_homepage: true
+  content: >-
+    We are organizing the 4TH Automatic Affect Analysis and Synthesis Workshop, which will be held in conjunction with <b>ICIAP 2025</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2025/">website</a> for more. Paper submission deadline is <b>June 14, 2023</b>.
+
 - date: 2025-04-01
   tag1: IJCNN
   tag2: Paper
@@ -8,7 +16,7 @@
 - date: 2025-03-07
   tag1: Academic
   tag2: Qualification
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Achieved the <b>National Scientific Qualification as Associate Professor</b> for the disciplinary field <b>01/B1 - Informatics</b>.
 
@@ -22,7 +30,7 @@
 - date: 2025-01-16
   tag1: WACV 2025
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I have been nominated as <b>Outstanding Reviewer</b> of <a href="https://wacv2025.thecvf.com/reviewers/" target="_blank">IEEE/CVF WACV 2025</a> conference.
 
@@ -38,7 +46,7 @@
   tag1: WACV 2025
   tag2: Paper
   tag3: HVA
-  show_on_homepage: false
+  show_on_homepage: true
   content: >-
     Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processes</b> has been accepted to <b>WACV 2025</b> conference. See <a href="https://github.com/phuselab/tppgaze" target="_blank">Github</a> and <a href="https://arxiv.org/abs/2410.23409" target="_blank">arXiv</a>.
 
