@@ -1,3 +1,10 @@
+- date: 2024-04-19
+  tag1: ICCV 2025
+  tag2: Workshop
+  show_on_homepage: true
+  content: >-
+    We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More information soon.
+
 - date: 2025-04-11
   tag1: ICIAP 2025
   tag2: Workshop
@@ -23,7 +30,7 @@
 - date: 2025-02-18
   tag1: ACMMM 2025
   tag2: Conference
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I will serve as Area Chair for the 33rd <b>ACM International Conference on Multimedia (ACM MM 2025)</b>. Visit the <a href="https://2025.acmmm.org/" target="_blank">website</a> for more information.
 
