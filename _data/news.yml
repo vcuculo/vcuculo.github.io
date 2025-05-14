@@ -3,7 +3,7 @@
   tag2: Workshop
   show_on_homepage: true
   content: >-
-    We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More information soon.
+    We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More information <a href="https://sites.google.com/view/hcvworkshop2025" target="_blank">here</a>.
 
 - date: 2025-04-11
   tag1: ICIAP 2025
@@ -76,7 +76,7 @@
   tag1: ECCV 2024
   tag2: Workshop
   tag3: Paper
-  tag4: HVA  
+  tag4: HVA
   show_on_homepage: false
   content: >-
     Our paper <b>Pixels of Faith: Exploiting Visual Saliency to Detect Religious Image Manipulation</b> has been accepted to the <a href="https://sites.google.com/view/ai4dh2024" target="_blank">AI4DH Workshop</a>, which will be held in conjunction with <b>ECCV 2024</b>.
