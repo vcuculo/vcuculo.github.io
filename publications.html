@@ -4,103 +4,104 @@ title: Publications
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include header.html %}
-    <body class="d-flex flex-column min-vh-100">
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
-        <bibtex src="assets/publications.bib"></bibtex>
-        <!-- Responsive navbar-->
-        {% include navbar.html %}
-         <!-- Page content-->
-        <div class="container mt-5 flex-grow-1">
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-12">
-                    <div class="row">
-                        {% include about.html %}
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-8 col-12">
-                    <!-- Post content-->
-                    <h2 class="fw-bold mb-4">Publications</h2>
+{% include header.html %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+<bibtex src="assets/publications.bib"></bibtex>
 
-                    <article>
-                        <div id="bibtex_display"></div>
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <!-- Responsive navbar-->
+    {% include navbar.html %}
+    <!-- Page content-->
+    <main class="container my-5 flex-grow-1">
+        <div class="row">
+            <aside class="col-lg-2 col-md-4 col-12">
+                {% include about.html %}
+            </aside>
+            <div class="col-lg-10 col-md-8 col-12">
+                <!-- Post content-->
+                <h2 class="fw-bold mb-4">Publications</h2>
 
-                        <div class="bibtex_template">
-                            <div class="container mb-2">
-                                <span class="title fw-bold"></span>.
-                                <span class="if editor ">
-                                    In <span class="editor "></span> (Eds.),
-                                </span>
-                                <span class="if booktitle ">
-                                    <span class="booktitle " style="font-style: italic;"></span>
-                                    <span class="if pages ">
-                                        (p. <span class="pages "></span>).
-                                    </span>
-                                    <span class="if address "><span class="address "></span>:</span>
-                                    <span class="if publisher "><span class="publisher "></span>.</span>
-                                </span>
-                                <span class="if journal " style="font-style: italic;">
-                                    <span class="journal"></span>,
-                                </span>
-                                <span class="if volume " style="font-style: italic;">
-                                    <span class="volume"></span>
-                                </span>
-                                <span class="if number ">
-                                    (<span class="number "></span>),
-                                </span>
-                                <span class="if journal ">
-                                    <span class="if pages ">
-                                        <span class="pages "></span>.
-                                    </span>
-                                </span>
-                                <span class="if year"> (<span class="year"></span>) </span>
+                <article>
+                    <div id="bibtex_display"></div>
 
-                                <div class="if author">
-                                    <span class="author"></span>
-                                </div>
+                    <div class="bibtex_template">
+                        <div class="container mb-2">
+                            <span class="title fw-bold"></span>.
+                            <span class="if editor ">
+                                In <span class="editor "></span> (Eds.),
+                            </span>
+                            <span class="if booktitle ">
+                                <span class="booktitle " style="font-style: italic;"></span>
+                                <span class="if pages ">
+                                    (p. <span class="pages "></span>).
+                                </span>
+                                <span class="if address "><span class="address "></span>:</span>
+                                <span class="if publisher "><span class="publisher "></span>.</span>
+                            </span>
+                            <span class="if journal " style="font-style: italic;">
+                                <span class="journal"></span>,
+                            </span>
+                            <span class="if volume " style="font-style: italic;">
+                                <span class="volume"></span>
+                            </span>
+                            <span class="if number ">
+                                (<span class="number "></span>),
+                            </span>
+                            <span class="if journal ">
+                                <span class="if pages ">
+                                    <span class="pages "></span>.
+                                </span>
+                            </span>
+                            <span class="if year"> (<span class="year"></span>) </span>
 
-                                <a class="bibtexVar" href="#bib+BIBTEXKEY+" extra="BIBTEXKEY" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" bibtexjs-css-escape>[bib]</a>
+                            <div class="if author">
+                                <span class="author"></span>
+                            </div>
 
-                                <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                                    <div class="card card-body">
-                                        <pre><span class="bibtexraw noread"></span></pre>
-                                    </div>
+                            <a class="bibtexVar" href="#bib+BIBTEXKEY+" extra="BIBTEXKEY" role="button"
+                                data-bs-toggle="collapse" aria-expanded="false" aria-controls="bib+BIBTEXKEY+"
+                                bibtexjs-css-escape>[bib]</a>
+
+                            <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                                <div class="card card-body">
+                                    <pre><span class="bibtexraw noread"></span></pre>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="bibtex_structure">
-                            <div class="sections bibtextypekey">
-                                <div class="section article mb-3">
-                                    <h4>Journal papers</h4>
-                                    <div class="sort year" extra="DESC number">
-                                        <div class="templates"></div>
-                                    </div>
-                                </div>
-                                <div class="section book mb-3">
-                                    <h4>Books</h4>
-                                    <div class="sort year" extra="DESC number">
-                                        <div class="templates"></div>
-                                    </div>
-                                </div>
-                                <div class="section inproceedings mb-3">
-                                    <h4>Conference proceedings</h4>
-                                    <div class="sort year" extra="DESC number">
-                                        <div class="templates"></div>
-                                    </div>
-                                </div>
-                                <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport mb-3">
-                                    <h4>Other Publications</h4>
-                                    <div class="sort year" extra="DESC number">
-                                        <div class="templates"></div>
-                                    </div>
+                    <div class="bibtex_structure">
+                        <div class="sections bibtextypekey">
+                            <div class="section article mb-3">
+                                <h4>Journal papers</h4>
+                                <div class="sort year" extra="DESC number">
+                                    <div class="templates"></div>
                                 </div>
                             </div>
-                        </div>                    
-                    </article>
-                </div>
+                            <div class="section book mb-3">
+                                <h4>Books</h4>
+                                <div class="sort year" extra="DESC number">
+                                    <div class="templates"></div>
+                                </div>
+                            </div>
+                            <div class="section inproceedings mb-3">
+                                <h4>Conference proceedings</h4>
+                                <div class="sort year" extra="DESC number">
+                                    <div class="templates"></div>
+                                </div>
+                            </div>
+                            <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport mb-3">
+                                <h4>Other Publications</h4>
+                                <div class="sort year" extra="DESC number">
+                                    <div class="templates"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
-        {% include footer.html %}
-    </body>
+    </main>
+    {% include footer.html %}
+</body>
 </html>

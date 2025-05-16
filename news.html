@@ -4,44 +4,46 @@ title: News Archive
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include header.html %}
-    <body class="d-flex flex-column min-vh-100">
-        <!-- Responsive navbar-->
-        {% include navbar.html %}
-        <!-- Page content-->
-        <div class="container mt-5 flex-grow-1">
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-12">
-                    <div class="row">
-                        {% include about.html %}
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-8 col-12">
-                    <!-- Post content-->
-                  <h2 class="fw-bold mb-4">News</h2>
+{% include header.html %}
 
-                  <ul class="list-group list-group-flush">
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <!-- Responsive navbar-->
+    {% include navbar.html %}
+    <!-- Page content-->
+    <main class="container my-5 flex-grow-1">
+        <div class="row">
+            <aside class="col-lg-2 col-md-4 col-12">
+                {% include about.html %}
+            </aside>
+
+            <section class="col-lg-10 col-md-8 col-12">
+                <!-- Post content-->
+                <h2 class="fw-bold mb-4">News</h2>
+
+                <ul class="list-group list-group-flush">
                     {% assign latestNews = site.data.news | sort: 'date' | reverse %}
-                      {% for news in latestNews %}
-                          <li class="list-group-item">
-                            <div class="row">
-                                <div class="col-md-12">
-                                  <a class="badge bg-news-when text-decoration-none link-light">{{ news.date | date_to_string: "ordinal" }}</a><!--<br>-->
-                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag1 }}</a>
-                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag2 }}</a>
-                                  <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag3 }}</a>
-                                </div>
-                                <div class="col-md-10">
-                                  <p class="mb-2 mt-2">
-                                      {{ news.content }}
-                                  </p>
-                                </div>
-                          </li>
-                      {% endfor %}
-                  </ul>
-                </div>
-            </div>
+                    {% for news in latestNews %}
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="badge bg-news-when text-decoration-none link-light">{{ news.date |
+                                    date_to_string: "ordinal" }}</a><!--<br>-->
+                                <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag1 }}</a>
+                                <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag2 }}</a>
+                                <a class="badge bg-news-where text-decoration-none link-light">{{ news.tag3 }}</a>
+                            </div>
+                            <div class="col-md-10">
+                                <p class="mb-2 mt-2">
+                                    {{ news.content }}
+                                </p>
+                            </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </section>
         </div>
-        {% include footer.html %}
-    </body>
+    </main>
+    {% include footer.html %}
+</body>
+
 </html>

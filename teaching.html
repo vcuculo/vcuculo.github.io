@@ -4,44 +4,44 @@ title: Teaching
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include header.html %}
-    <body class="d-flex flex-column min-vh-100">
-        <!-- Responsive navbar-->
-        {% include navbar.html %}
-        <!-- Page content-->
-        <div class="container mt-5 flex-grow-1">
-            <div class="row">
-                <div class="col-lg-2 col-md-4 col-12">
-                    <div class="row">
-                        {% include about.html %}
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-8 col-12">
-                    <!-- Post content-->
-                    <article>
-                        <h2 class="fw-bold mb-4">Teaching</h2>
+{% include header.html %}
 
-                          {% assign grouped_courses = site.data.courses | group_by: 'academic_year' %}
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+  <!-- Responsive navbar-->
+  {% include navbar.html %}
+  <!-- Page content-->
+  <main class="container my-5 flex-grow-1">
+    <div class="row">
+      <aside class="col-lg-2 col-md-4 col-12">
+        {% include about.html %}
+      </aside>
+      <div class="col-lg-10 col-md-8 col-12">
+        <!-- Post content-->
+        <article>
+          <h2 class="fw-bold mb-4">Teaching</h2>
 
-                          {% for academic_year_courses in grouped_courses %}
-                            <h5>{{ academic_year_courses.name }}</h5>
+          {% assign grouped_courses = site.data.courses | group_by: 'academic_year' %}
 
-                            {% for course in academic_year_courses.items %}
-                              <p>  
-                                <b>{{ course.name }} ({{ course.semester }} semester)</b><br>
-                                {{ course.where }}<br>
-                                <a href="{{ course.link }}">Course website</a>
-                              </p>
+          {% for academic_year_courses in grouped_courses %}
+          <h5>{{ academic_year_courses.name }}</h5>
 
-                              {% if forloop.last == true %}
-                                <hr>
-                              {% endif %}
-                            {% endfor %}
-                          {% endfor %}
-                    </article>
-                </div>
-            </div>
-        </div>
-        {% include footer.html %}
-    </body>
+          {% for course in academic_year_courses.items %}
+          <p>
+            <b>{{ course.name }} ({{ course.semester }} semester)</b><br>
+            {{ course.where }}<br>
+            <a href="{{ course.link }}">Course website</a>
+          </p>
+
+          {% if forloop.last == true %}
+          <hr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </article>
+      </div>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+
 </html>

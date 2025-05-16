@@ -1,9 +1,15 @@
+- date: 2025-05-16
+  tag1: AI-DLDA 2025
+  show_on_homepage: true
+  content: >-
+    I have been invited as a speaker at the <a href="https://www.aidlda.it/" target="_blank">AI-DLDA: International Summer School on Artificial Intelligence</a>, which will be held in Udine on June 30th, 2025.
+
 - date: 2025-04-19
   tag1: ICCV 2025
   tag2: Workshop
   show_on_homepage: true
   content: >-
-    We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More information <a href="https://sites.google.com/view/hcvworkshop2025" target="_blank">here</a>.
+    We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More info <a href="https://sites.google.com/view/hcvworkshop2025" target="_blank">here</a>. Paper submission deadline is <b>June 27, 2025</b>.
 
 - date: 2025-04-11
   tag1: ICIAP 2025
@@ -11,7 +17,7 @@
   tag3: AC
   show_on_homepage: true
   content: >-
-    We are organizing the 4th <b>Automatic Affect Analysis and Synthesis Workshop</b>, which will be held in conjunction with <b>ICIAP 2025</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2025/">website</a> for more. Paper submission deadline is <b>June 14, 2023</b>.
+    We are organizing the 4th <b>Automatic Affect Analysis and Synthesis Workshop</b>, which will be held in conjunction with <b>ICIAP 2025</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2025/">website</a> for more. Paper submission deadline is <b>June 14, 2025</b>.
 
 - date: 2025-04-01
   tag1: IJCNN
@@ -53,7 +59,7 @@
   tag1: WACV 2025
   tag2: Paper
   tag3: HVA
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processes</b> has been accepted to <b>WACV 2025</b> conference. See <a href="https://github.com/phuselab/tppgaze" target="_blank">Github</a> and <a href="https://arxiv.org/abs/2410.23409" target="_blank">arXiv</a>.
 

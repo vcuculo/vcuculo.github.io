@@ -4,81 +4,104 @@ title: Home
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include header.html %}
-    <body class="d-flex flex-column min-vh-100 bg-light text-dark">
-        <!-- Responsive navbar-->
-        {% include navbar.html %}
-        <!-- Page content-->
-        <main class="container my-5 flex-grow-1">
-            <div class="row">
-                <aside class="col-lg-2 col-md-4 col-12">
-                    {% include about.html %}
-                </aside>
+{% include header.html %}
 
-                <section class="col-lg-6 col-md-8 mb-4">
-                    <article class="bg-white rounded p-4 shadow-sm">
-                        
-                        <header class="mb-4 border-bottom pb-2">
-                            <h2 class="fw-bold">About</h2>
-                        </header>
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <!-- Responsive navbar-->
+    {% include navbar.html %}
+    <!-- Page content-->
+    <main class="container my-5 flex-grow-1">
+        <div class="row">
+            <aside class="col-lg-2 col-md-4 col-12">
+                {% include about.html %}
+            </aside>
 
-                        <section class="mb-5">
-                            <p class="fs-6 mb-4">Assistant Professor at the <a href="https://www.unimore.it/" target="_blank">University of Modena and Reggio Emilia</a> in Italy and member of the <a href="https://aimagelab.ing.unimore.it" target="_blank">AImageLab</a>, led by Prof. Rita Cucchiara.
+            <section class="col-lg-6 col-md-8 mb-4">
+                <article class="bg-white rounded p-4 shadow-sm">
+
+                    <header class="mb-4 border-bottom pb-2">
+                        <h2 class="fw-bold">About</h2>
+                    </header>
+
+                    <section class="mb-5">
+                        <p class="fs-6 mb-4">Assistant Professor at the <a href="https://www.unimore.it/"
+                                target="_blank">University of Modena and Reggio Emilia</a> in Italy and member of the <a
+                                href="https://aimagelab.ing.unimore.it" target="_blank">AImageLab</a>, led by Prof. Rita
+                            Cucchiara.
+                        </p>
+                        <p class="fs-6 mb-4">Previously, I held a Postdoctoral Researcher position in the <a
+                                href="http://www.di.unimi.it" title="di.unimi.it" target="_blank">Department of Computer
+                                Science</a> at the <a href="http://www.unimi.it" title="unimi.it">University of
+                                Milan</a>, Italy as a founding member of the <a href="http://phuselab.di.unimi.it"
+                                title="phuselab" target="_blank">PHuSe Lab</a>.<br>
+                            I completed my Ph.D. in <a href="http://www.mat.unimi.it/dottorati/" title="mat.unimi.it"
+                                target="_blank">Mathematical Sciences</a>, supervised by <a
+                                href="http://boccignone.di.unimi.it/Home.html" title="boccignone" target="_blank">Prof.
+                                Giuseppe Boccignone</a>, with a dissertation on <a
+                                href="https://air.unimi.it/handle/2434/546274" target="_blank"><em>”A Probabilistic
+                                    Approach to the Construction of a Multimodal Affect Space”</em></a>.
+                        </p>
+                        <p class="fs-6 mb-4">Beyond academia, I worked as an interaction developer at the Milan-based
+                            design studio <a href="http://www.dotdotdot.it" title="dotdotdot">dotdotdot</a>, creating
+                            permanent and temporary interactive installations that fused architecture, design, and
+                            digital technology.
+                        </p>
+                        <p class="fs-6 mb-4">My <strong>current research</strong> focuses on <a
+                                class="badge bg-news-where text-decoration-none link-light">HVA</a> human visual
+                            attention, <a class="badge bg-news-where text-decoration-none link-light">RPM</a> remote
+                            physiological measurement and <a
+                                class="badge bg-news-where text-decoration-none link-light">AC</a> affective computing.
+                        </p>
+                    </section>
+
+
+                    <header class="mb-4 border-bottom pb-2">
+                        <h2 class="fw-bold">Contact</h2>
+                    </header>
+                    <section>
+                        <address class="fst-italic lh-sm">
+                            Università degli Studi di Modena e Reggio Emilia<br>
+                            Department of Engineering "Enzo Ferrari"<br>
+                            Via Pietro Vivarelli, 10 - 41125 Modena<br>
+                            Office MO-27-02-029<br>
+                            tel: +39 059 205 6289
+                        </address>
+                    </section>
+                </article>
+            </section>
+
+            <!-- Side widgets-->
+            <aside class="col-lg-4 col-md-12">
+                <div class="card shadow-sm bg-white border-0">
+                    <div class="card-header bg-white border-bottom">
+                        <h5 class="mb-0 fw-semibold">Latest News</h5>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        {% assign latestNews = site.data.news | where: "show_on_homepage", true | limit: 5 | sort:
+                        'date' | reverse %}
+                        {% for news in latestNews %}
+                        <li class="list-group-item">
+                            <div class="mb-2">
+                                <span class="badge bg-news-when me-1">{{ news.date | date_to_string: "ordinal" }}</span>
+                                {% if news.tag1 %}<span class="badge bg-news-where">{{ news.tag1 }}</span>{% endif %}
+                                {% if news.tag2 %}<span class="badge bg-news-where">{{ news.tag2 }}</span>{% endif %}
+                                {% if news.tag3 %}<span class="badge bg-news-where">{{ news.tag3 }}</span>{% endif %}
+                            </div>
+                            <p class="mb-1 small">
+                                {{ news.content }}
                             </p>
-                            <p class="fs-6 mb-4">Previously, I held a Postdoctoral Researcher position in the <a href="http://www.di.unimi.it" title="di.unimi.it" target="_blank">Department of Computer Science</a> at the <a href="http://www.unimi.it" title="unimi.it">University of Milan</a>, Italy as a founding member of the <a href="http://phuselab.di.unimi.it" title="phuselab" target="_blank">PHuSe Lab</a>.<br>
-                            I completed my Ph.D. in <a href="http://www.mat.unimi.it/dottorati/" title="mat.unimi.it" target="_blank">Mathematical Sciences</a>, supervised by <a href="http://boccignone.di.unimi.it/Home.html" title="boccignone" target="_blank">Prof. Giuseppe Boccignone</a>, with a dissertation on <a href="https://air.unimi.it/handle/2434/546274" target="_blank"><em>”A Probabilistic Approach to the Construction of a Multimodal Affect Space”</em></a>.
-                            </p>
-                            <p class="fs-6 mb-4">Beyond academia, I worked as an interaction developer at the Milan-based design studio <a href="http://www.dotdotdot.it" title="dotdotdot">dotdotdot</a>, creating permanent and temporary interactive installations that fused architecture, design, and digital technology.
-                            </p>
-                            <p class="fs-6 mb-4">My <strong>current research</strong> focuses on <a class="badge bg-news-where text-decoration-none link-light">HVA</a> human visual attention,  <a class="badge bg-news-where text-decoration-none link-light">RPM</a> remote physiological measurement and <a class="badge bg-news-where text-decoration-none link-light">AC</a> affective computing.</p>
-                        </section>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="card-footer text-center bg-white border-top">
+                        <a href="/news.html" class="text-decoration-none text-muted">Read all news →</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+    {% include footer.html %}
+</body>
 
-
-                        <header class="mb-4 border-bottom pb-2">
-                            <h2 class="fw-bold">Contact</h2>
-                        </header>
-                        <section>
-                            <address class="fst-italic lh-sm">
-                                Università degli Studi di Modena e Reggio Emilia<br>
-                                Department of Engineering "Enzo Ferrari"<br>
-                                Via Pietro Vivarelli, 10 - 41125 Modena<br>
-                                Office MO-27-02-029<br>
-                                tel: +39 059 205 6289
-                            </address>
-                        </section>
-                    </article>
-                </section>
-
-                <!-- Side widgets-->
-                <aside class="col-lg-4 col-md-12">
-                    <div class="card shadow-sm bg-white border-0">
-                        <div class="card-header bg-white border-bottom">
-                            <h5 class="mb-0 fw-semibold">Latest News</h5>
-                        </div>
-
-                        <ul class="list-group list-group-flush">
-                          {% assign latestNews = site.data.news | where: "show_on_homepage", true  | limit: 5 | sort: 'date' | reverse %}
-                            {% for news in latestNews %}
-                                <li class="list-group-item">
-                                    <div class="mb-2">
-                                        <span class="badge bg-news-when me-1">{{ news.date | date_to_string: "ordinal" }}</span>
-                                        {% if news.tag1 %}<span class="badge bg-news-where">{{ news.tag1 }}</span>{% endif %}
-                                        {% if news.tag2 %}<span class="badge bg-news-where">{{ news.tag2 }}</span>{% endif %}
-                                        {% if news.tag3 %}<span class="badge bg-news-where">{{ news.tag3 }}</span>{% endif %}
-                                    </div>
-                                    <p class="mb-1 small">
-                                        {{ news.content }}
-                                    </p>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                        <div class="card-footer text-center bg-white border-top">
-                            <a href="/news.html" class="text-decoration-none text-muted">Read all news →</a>
-                        </div>
-                    </div>                        
-                </aside>            
-            </div>
-        </main>
-        {% include footer.html %}
-    </body>
 </html>
