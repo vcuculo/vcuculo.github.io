@@ -1,193 +1,155 @@
 - date: 2025-05-16
-  tag1: AI-DLDA 2025
+  tags: ["AI-DLDA 2025"]
   show_on_homepage: true
   content: >-
     I have been invited as a speaker at the <a href="https://www.aidlda.it/" target="_blank">AI-DLDA: International Summer School on Artificial Intelligence</a>, which will be held in Udine on June 30th, 2025.
 
 - date: 2025-04-19
-  tag1: ICCV 2025
-  tag2: Workshop
+  tags: ["ICCV 2025", "Workshop"]
   show_on_homepage: true
   content: >-
     We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More info <a href="https://sites.google.com/view/hcvworkshop2025" target="_blank">here</a>. Paper submission deadline is <b>June 27, 2025</b>.
 
 - date: 2025-04-11
-  tag1: ICIAP 2025
-  tag2: Workshop
-  tag3: AC
+  tags: ["ICIAP 2025", "Workshop", "AC"]
   show_on_homepage: true
   content: >-
     We are organizing the 4th <b>Automatic Affect Analysis and Synthesis Workshop</b>, which will be held in conjunction with <b>ICIAP 2025</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2025/">website</a> for more. Paper submission deadline is <b>June 14, 2025</b>.
 
 - date: 2025-04-01
-  tag1: IJCNN
-  tag2: Paper
+  tags: ["IJCNN", "Paper"]
   show_on_homepage: true
   content: >-
     The paper <b>ECoGNet: an EEG-based Effective Connectivity Graph Neural Network for Brain Disorder Detection</b> has been accepted to the International Joint Conference on Neural Networks <b>(IJCNN 2025)</b>.
 
 - date: 2025-03-07
-  tag1: Academic
-  tag2: Qualification
+  tags: ["Academic", "Qualification"]
   show_on_homepage: false
   content: >-
     Achieved the <b>National Scientific Qualification as Associate Professor</b> for the disciplinary field <b>01/B1 - Informatics</b>.
 
 - date: 2025-02-18
-  tag1: ACMMM 2025
-  tag2: Conference
+  tags: ["ACMMM 2025", "Conference"]
   show_on_homepage: false
   content: >-
     I will serve as Area Chair for the 33rd <b>ACM International Conference on Multimedia (ACM MM 2025)</b>. Visit the <a href="https://2025.acmmm.org/" target="_blank">website</a> for more information.
 
 - date: 2025-01-16
-  tag1: WACV 2025
-  tag2: Conference
+  tags: ["WACV 2025", "Conference"]
   show_on_homepage: false
   content: >-
     I have been nominated as <b>Outstanding Reviewer</b> of <a href="https://wacv2025.thecvf.com/reviewers/" target="_blank">IEEE/CVF WACV 2025</a> conference.
 
 - date: 2024-11-04
-  tag1: BSPC
-  tag2: Paper
-  tag3: RPM
+  tags: ["BSPC", "Paper", "RPM"]
   show_on_homepage: true
   content: >-
     Our paper <b>Enhancing rPPG Pulse-Signal Recovery by Facial Sampling and PSD Clustering</b> has been accepted for publication in the <b>Biomedical Signal Processing and Control</b> journal. Read the full paper <a href="https://www.sciencedirect.com/science/article/pii/S1746809424012163?via%3Dihub" target="_blank">here</a>.
 
 - date: 2024-10-30
-  tag1: WACV 2025
-  tag2: Paper
-  tag3: HVA
+  tags: ["WACV 2025", "Paper", "HVA"]
   show_on_homepage: false
   content: >-
     Our paper <b>TPP-Gaze: Modelling Gaze Dynamics in Space and Time with Neural Temporal Point Processes</b> has been accepted to <b>WACV 2025</b> conference. See <a href="https://github.com/phuselab/tppgaze" target="_blank">Github</a> and <a href="https://arxiv.org/abs/2410.23409" target="_blank">arXiv</a>.
 
 - date: 2024-10-28
-  tag1: ACMMM 2024
-  tag2: Conference
+  tags: ["ACMMM 2024", "Conference"]
   show_on_homepage: false
   content: >-
     I have been nominated as <b>Outstanding Area Chair</b> of <a href="https://2024.acmmm.org/outstanding-ac-reviewer" target="_blank">ACM Multimedia 2024</a> conference.
 
 - date: 2024-10-14
-  tag1: IJHCI
-  tag2: Paper
-  tag3: AC
+  tags: ["IJHCI", "Paper", "AC"]
   show_on_homepage: false
   content: >-
     Our paper <b>Predicting engagement of older people’s virtual teams from video call analysis</b> has been accepted for publication in the <b>International Journal of Human-Computer Interaction</b>. Read the full paper <a href="https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2423107" target="_blank">here</a>.
 
 - date: 2024-08-16
-  tag1: ECCV 2024
-  tag2: Workshop
-  tag3: Paper
-  tag4: HVA
+  tags: ["ECCV 2024", "Workshop", "Paper", "HVA"]
   show_on_homepage: false
   content: >-
     Our paper <b>Pixels of Faith: Exploiting Visual Saliency to Detect Religious Image Manipulation</b> has been accepted to the <a href="https://sites.google.com/view/ai4dh2024" target="_blank">AI4DH Workshop</a>, which will be held in conjunction with <b>ECCV 2024</b>.
 
 - date: 2024-08-07
-  tag1: IRCDL 2025
-  tag2: Conference
+  tags: ["IRCDL 2025", "Conference"]
   show_on_homepage: false
   content: >-
     I serve as <b>Publicity Chair</b> for the 21st <a href="https://ircdl2025.uniud.it/" target="_blank">Conference on Information and Research Science Connecting to Digital and Library Science</a> (<b>IRCDL 2025</b>).
 
 - date: 2024-07-23
-  tag1: IJCAI 2024
-  tag2: Conference
+  tags: ["IJCAI 2024", "Conference"]
   show_on_homepage: false
   content: >-
     I will serve as <b>Session Chair</b> for the 33rd <a href="https://ijcai24.org/" target="_blank">International Joint Conference on Artificial Intelligence</a> (<b>IJCAI 2024</b>).
 
 - date: 2024-07-17
-  tag1: Springer APIN
-  tag2: Journal
+  tags: ["Springer APIN", "Journal"]
   show_on_homepage: false
   content: >-
     Joined the Editorial Board of <a href="https://link.springer.com/journal/10489/editors" target="_blank">Springer Applied Intelligence</a> journal as <b>Associate Editor</b>.
 
 - date: 2024-06-03
-  tag1: SAC 2025
-  tag2: Conferece
+  tags: ["SAC 2025", "Conference"]
   show_on_homepage: false
   content: >-
     I will serve as Track Chair for the 40th <b>ACM/SIGAPP Symposium On Applied Computing (SAC 2025)</b> for the track on Graph Models for Learning and Recognition (GMLR 2024). More information <a href="https://phuselab.di.unimi.it/GMLR2025/" target="_blank">here</a>.
 
 - date: 2024-04-20
-  tag1: IJCAI 2024
-  tag2: Paper
-  tag3: HVA
+  tags: ["IJCAI 2024", "Paper", "HVA"]
   show_on_homepage: false
   content: >-
     Our survey <b>Trends, Applications, and Challenges in Human Attention Modelling</b> has been accepted to <b>IJCAI 2024</b> conference in the Survey Track. Read the proceeding <a href="https://www.ijcai.org/proceedings/2024/882" target="_blank">here</a>.
 
 - date: 2024-04-12
-  tag1: ECCV 2024
-  tag2: Workshop
+  tags: ["ECCV 2024", "Workshop"]
   show_on_homepage: false
   content: >-
     We are organizing the first Workshop on <b>Human-inspired Computer Vision</b>, which will be held in September in Milan in conjunction with <b>ECCV 2024</b>. Visit the <a href="https://sites.google.com/view/hcvworkshop2024/" target="_blank">website</a> for more information.
 
 - date: 2024-02-11
-  tag1: IEEE SPL
-  tag2: Paper
-  tag3: HVA
+  tags: ["IEEE SPL", "Paper", "HVA"]
   show_on_homepage: false
   content: >-
     Our paper <b>Unveiling the Truth: Exploring Human Gaze Patterns in Fake Images</b> has just been published on <b>IEEE Signal Processing Letters</b>. Read the full paper <a href="https://ieeexplore.ieee.org/document/10465604" target="_blank">here</a>.
 
 - date: 2024-01-29
-  tag1: Project ARIA
-  tag2: Partnership
-  tag3: HVA
+  tags: ["Project ARIA", "Partnership", "HVA"]
   show_on_homepage: false
   content: >-
     Accepted as <b>academic partner</b> for the <a href="https://www.projectaria.com/" target="_blank">Project ARIA</a> research program of <a href="https://about.meta.com/realitylabs/" target="_blank">Meta Reality Labs</a> <i class="fa-solid fa-glasses"></i>. It will help to advance the research on Human Gaze Assisted Artificial Intelligence!
 
 - date: 2023-11-23
-  tag1: ACMMM 2024
-  tag2: Conference
+  tags: ["ACMMM 2024", "Conference"]
   show_on_homepage: false
   content: >-
     I will serve as Area Chair for the 32nd <b>ACM International Conference on Multimedia (ACM MM 2024)</b>. Visit the <a href="https://2024.acmmm.org/" target="_blank">website</a> for more information.
 
 - date: 2023-05-23
-  tag1: ICIAP 2023
-  tag2: Tutorial
-  tag3: RPM
+  tags: ["ICIAP 2023", "Tutorial", "RPM"]
   show_on_homepage: false
   content: >-
     We are organizing a tutorial titled <a href="https://sites.google.com/view/iciap2023tutorial-rps" target="_blank">"Remote Physiological Sensing: State of the Art and Applications"</a> which will take place on September 15th at <b>ICIAP 2023</b> in Udine, Italy.
 
 - date: 2023-05-05
-  tag1: ACMMM 2023
-  tag2: Conference
+  tags: ["ACMMM 2023", "Conference"]
   show_on_homepage: false
   content: >-
     I am serving as Area Chair for the 31st <b>ACM International Conference on Multimedia (ACM MM 2023)</b>. Visit the <a href="https://www.acmmm2023.org" target="_blank">website</a> for more information.
 
 - date: 2023-05-04
-  tag1: ICIAP 2023
-  tag2: Workshop
-  tag3: HVA
+  tags: ["ICIAP 2023", "Workshop", "HVA"]
   show_on_homepage: false
   content: >-
     We are organizing the first International Workshop on Advances in Gaze Analysis, Visual attention and Eye-gaze modelling (AGAVE), which will be held on September 11th, in conjunction with <b>ICIAP 2023</b>. See the <a href="https://sites.google.com/view/agave2023/">website</a> for more. Paper submission deadline is <b>July 7, 2023</b>.
 
 - date: 2023-05-04
-  tag1: ICIAP 2023
-  tag2: Workshop
-  tag3: AC
+  tags: ["ICIAP 2023", "Workshop", "AC"]
   show_on_homepage: false
   content: >-
     We are organizing the 3rd Automatic Affect Analysis and Synthesis Workshop, which will be held in conjunction with <b>ICIAP 2023</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2023/">website</a> for more. Paper submission deadline is <b>July 7, 2023</b>.
 
 - date: 2023-03-16
-  tag1: BSPCJ
-  tag2: Special Issue
-  tag3: RPM
+  tags: ["BSPC", "Special Issue", "RPM"]
   show_on_homepage: false
   content: >-
     I am serving as Guest Editor for the Special Issue titled <a href="https://www.sciencedirect.com/journal/biomedical-signal-processing-and-control/special-issue/10KF5VGF0XW" target="_blank">"Remote Physiological Measurement: Novel algorithms and application areas"</a> on the <b>Biomedical Signal Processing and Control Journal</b> (IF 5.076). The deadline for paper submissions is <s>September 3, 2023</s> <b>extended to December 5, 2023</b>.

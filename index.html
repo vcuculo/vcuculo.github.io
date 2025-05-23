@@ -84,9 +84,11 @@ title: Home
                         <li class="list-group-item">
                             <div class="mb-2">
                                 <span class="badge bg-news-when me-1">{{ news.date | date_to_string: "ordinal" }}</span>
-                                {% if news.tag1 %}<span class="badge bg-news-where">{{ news.tag1 }}</span>{% endif %}
-                                {% if news.tag2 %}<span class="badge bg-news-where">{{ news.tag2 }}</span>{% endif %}
-                                {% if news.tag3 %}<span class="badge bg-news-where">{{ news.tag3 }}</span>{% endif %}
+                                {% if news.tags %}
+                                    {% for tag in news.tags %}
+                                        <span class="badge bg-news-where">{{ tag }}</span>
+                                    {% endfor %}
+                                {% endif %}
                             </div>
                             <p class="mb-1 small">
                                 {{ news.content }}
