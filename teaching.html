@@ -12,13 +12,14 @@ title: Teaching
   <!-- Page content-->
   <main class="container my-5 flex-grow-1">
     <div class="row">
-      <aside class="col-lg-2 col-md-4 col-12">
+      <aside class="col-xl-2 col-md-4 col-12">
         {% include about.html %}
       </aside>
-      <div class="col-lg-10 col-md-8 col-12">
+
+      <section class="col-xl-10 col-md-8 col-12 ">
         <!-- Post content-->
         <article>
-          <h2 class="fw-bold mb-4">Teaching</h2>
+          <h2 class="mb-4 fw-semibold">Teaching</h2>
 
           {% assign grouped_courses = site.data.courses | group_by: 'academic_year' %}
 
@@ -38,7 +39,7 @@ title: Teaching
           {% endfor %}
           {% endfor %}
         </article>
-      </div>
+      </section>
     </div>
   </main>
   {% include footer.html %}

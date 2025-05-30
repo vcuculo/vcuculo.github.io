@@ -1,8 +1,14 @@
+- date: 2025-05-30
+  tags: ["JOCCH", "Paper", "HVA"]
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</b> has been accepted for publication in the <b>Journal on Computing and Cultural Heritage (JOCCH)</b> and will be presented at <b>CVPR</b> during the International Workshop on Spatial Intelligence for Cultural Heritage.
+
 - date: 2025-05-16
   tags: ["AI-DLDA 2025"]
   show_on_homepage: true
   content: >-
-    I have been invited as a speaker at the <a href="https://www.aidlda.it/" target="_blank">AI-DLDA: International Summer School on Artificial Intelligence</a>, which will be held in Udine on June 30th, 2025.
+    I have been invited as a speaker at the <a href="https://www.aidlda.it/" target="_blank">AI-DLDA: International Summer School on Artificial Intelligence</a>, which will be held in Udine on <b>June 30th, 2025</b>.
 
 - date: 2025-04-19
   tags: ["ICCV 2025", "Workshop"]
@@ -42,7 +48,7 @@
 
 - date: 2024-11-04
   tags: ["BSPC", "Paper", "RPM"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>Enhancing rPPG Pulse-Signal Recovery by Facial Sampling and PSD Clustering</b> has been accepted for publication in the <b>Biomedical Signal Processing and Control</b> journal. Read the full paper <a href="https://www.sciencedirect.com/science/article/pii/S1746809424012163?via%3Dihub" target="_blank">here</a>.
 
