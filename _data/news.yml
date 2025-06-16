@@ -1,3 +1,14 @@
+- date: 2025-06-16
+  tags: ["ICIAP 2025", "Paper", "HVA"]
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Unravelling Neurodivergent Gaze Behaviour through Visual Attention Causal Graphs</b> has been accepted to the 23rd International Conference on Image Analysis and Processing <b>(ICIAP 2025)</b>.
+
+- date: 2025-05-30
+  tags: ["JOCCH", "Paper", "HVA"]
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</b> has been accepted for oral presentation at <b>CVPR 2025</b> during the International Workshop on Spatial Intelligence for Cultural Heritage and will be published in the <b>Journal on Computing and Cultural Heritage (JOCCH)</b>.
 
 - date: 2025-05-16
   tags: ["AI-DLDA 2025"]
@@ -13,7 +24,7 @@
 
 - date: 2025-04-11
   tags: ["ICIAP 2025", "Workshop", "AC"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     We are organizing the 4th <b>Automatic Affect Analysis and Synthesis Workshop</b>, which will be held in conjunction with <b>ICIAP 2025</b>. See the <a href="https://sites.google.com/unimib.it/3asiciap2025/">website</a> for more. Paper submission deadline is <b>June 14, 2025</b>.
 
