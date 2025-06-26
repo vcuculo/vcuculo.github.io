@@ -1,3 +1,9 @@
+- date: 2025-06-25
+  tags: ["ICCV 2025", "Paper", "HVA"]
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Modeling Human Gaze Behavior with Diffusion Models for Unified Scanpath Prediction</b> has been accepted to <b><a href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></b>  🌺.
+
 - date: 2025-06-16
   tags: ["ICIAP 2025", "Paper", "HVA"]
   show_on_homepage: true
@@ -8,7 +14,7 @@
   tags: ["JOCCH", "Paper", "HVA"]
   show_on_homepage: true
   content: >-
-    Our paper <b>Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</b> has been accepted for oral presentation at <b>CVPR 2025</b> during the International Workshop on Spatial Intelligence for Cultural Heritage and will be published in the <b>Journal on Computing and Cultural Heritage (JOCCH)</b>.
+    Our paper <b>Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</b> has been accepted for oral presentation at <b>CVPR 2025</b> during the <b>Workshop on Spatial Intelligence for Cultural Heritage</b> and will be published in the <b>Journal on Computing and Cultural Heritage (JOCCH)</b>.
 
 - date: 2025-05-16
   tags: ["AI-DLDA 2025"]
@@ -30,7 +36,7 @@
 
 - date: 2025-04-01
   tags: ["IJCNN", "Paper"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     The paper <b>ECoGNet: an EEG-based Effective Connectivity Graph Neural Network for Brain Disorder Detection</b> has been accepted to the International Joint Conference on Neural Networks <b>(IJCNN 2025)</b>.
 
