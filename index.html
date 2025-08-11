@@ -24,35 +24,49 @@ title: Home
                     </header>
 
                     <section class="mb-5">
-                        <p class="fs-6 mb-4">Assistant Professor at the <a href="https://www.unimore.it/"
-                                target="_blank">University of Modena and Reggio Emilia</a> in Italy and member of the <a
-                                href="https://aimagelab.ing.unimore.it" target="_blank">AImageLab</a>, led by Prof. Rita
-                            Cucchiara.
+                        <p class="fs-6 mb-4">
+                            Assistant Professor at the
+                            <a href="https://www.unimore.it/" target="_blank">University of Modena and Reggio
+                                Emilia</a>,
+                            and a member of the <a href="https://aimagelab.ing.unimore.it" target="_blank">AImageLab</a>
+                            research group led by Prof. Rita Cucchiara.
+                            I am also a member of the <a href="https://www.acm.org/" target="_blank">ACM</a> and the
+                            <a href="https://ellis.eu/members" target="_blank">ELLIS Society</a> (European Laboratory
+                            for Learning and Intelligent Systems).
                         </p>
-                        <p class="fs-6 mb-4">Previously, I held a Postdoctoral Researcher position in the <a
-                                href="http://www.di.unimi.it" title="di.unimi.it" target="_blank">Department of Computer
-                                Science</a> at the <a href="http://www.unimi.it" title="unimi.it">University of
-                                Milan</a>, Italy as a founding member of the <a href="http://phuselab.di.unimi.it"
-                                title="phuselab" target="_blank">PHuSe Lab</a>.<br>
-                            I completed my Ph.D. in <a href="http://www.mat.unimi.it/dottorati/" title="mat.unimi.it"
-                                target="_blank">Mathematical Sciences</a>, supervised by <a
-                                href="http://boccignone.di.unimi.it/Home.html" title="boccignone" target="_blank">Prof.
-                                Giuseppe Boccignone</a>, with a dissertation on <a
-                                href="https://air.unimi.it/handle/2434/546274" target="_blank"><em>”A Probabilistic
-                                    Approach to the Construction of a Multimodal Affect Space”</em></a>.
+
+                        <p class="fs-6 mb-4">
+                            I earned my Ph.D. in <a href="http://www.mat.unimi.it/dottorati/"
+                                target="_blank">Mathematical Sciences</a>
+                            from the <a href="http://www.unimi.it" target="_blank">University of Milan</a> in 2017,
+                            where I was a founding member of the
+                            <a href="http://phuselab.di.unimi.it" target="_blank">PHuSe Lab</a>.
+                            I currently serve as Associate Editor for <em>Springer Applied Intelligence</em> and as Area
+                            Chair for <em>ACM Multimedia</em> conferences.
                         </p>
-                        <p class="fs-6 mb-4">Beyond academia, I worked as an interaction developer at the Milan-based
-                            design studio <a href="http://www.dotdotdot.it" title="dotdotdot">dotdotdot</a>, creating
-                            permanent and temporary interactive installations that fused architecture, design, and
+
+                        <p class="fs-6 mb-4">
+                            My professional journey is a blend of academia and industry, with over a decade of
+                            experience in both fields.
+                            Before my current role, I worked as an interaction developer at the Milan-based design
+                            studio
+                            <a href="http://www.dotdotdot.it" target="_blank" title="dotdotdot">dotdotdot</a>.
+                            There, I created immersive interactive installations that combined architecture, design, and
                             digital technology.
+                            This experience led to a patent and fostered collaborations with European institutions on
+                            projects related to perceptual computing and visual attention.
                         </p>
-                        <p class="fs-6 mb-4">My <strong>current research</strong> focuses on <a
-                                class="badge bg-news-where text-decoration-none link-light">HVA</a> human visual
-                            attention, <a class="badge bg-news-where text-decoration-none link-light">RPM</a> remote
-                            physiological measurement and <a
-                                class="badge bg-news-where text-decoration-none link-light">AC</a> affective computing.
+
+                        <p class="fs-6 mb-4">
+                            Current research focuses on <b>Human Visual Attention</b>
+                            <a class="badge bg-news-where text-decoration-none link-light">HVA</a>,
+                            <b>Affective Computing</b> <a class="badge bg-news-where text-decoration-none link-light">AC</a>,
+                            <b>Remote Physiological Measurement</b> <a
+                                class="badge bg-news-where text-decoration-none link-light">RPM</a>,
+                            and <b>Multimodal Human-Centered AI</b>.
                         </p>
                     </section>
+
 
 
                     <header class="mb-4 border-bottom pb-2">
@@ -85,9 +99,9 @@ title: Home
                             <div class="mb-2">
                                 <span class="badge bg-news-when me-1">{{ news.date | date_to_string: "ordinal" }}</span>
                                 {% if news.tags %}
-                                    {% for tag in news.tags %}
-                                        <span class="badge bg-news-where">{{ tag }}</span>
-                                    {% endfor %}
+                                {% for tag in news.tags %}
+                                <span class="badge bg-news-where">{{ tag }}</span>
+                                {% endfor %}
                                 {% endif %}
                             </div>
                             <p class="mb-1 small">
