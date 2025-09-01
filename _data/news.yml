@@ -1,8 +1,14 @@
+- date: 2025-09-01
+  tags: ["IRCDL 2026", "Conference"]
+  show_on_homepage: true
+  content: >-
+    I will serve as <b>Program Chair</b> for the 22nd <a href="https://ircdl2026.unimore.it/" target="_blank">Conference on Information and Research Science Connecting to Digital and Library Science</a> (<b>IRCDL 2026</b>).
+
 - date: 2025-07-31
   tags: ["ELLIS", "Membership"]
   show_on_homepage: true
   content: >-
-    Honored to join the <b><a href="https://ellis.eu/members" target="_blank">ELLIS Society</a></b> as a member.
+    Honored to have joined the <b><a href="https://ellis.eu/members" target="_blank">ELLIS Society</a></b> as a Member.
 
 - date: 2025-06-25
   tags: ["ICCV 2025", "Paper", "HVA"]
@@ -30,7 +36,7 @@
 
 - date: 2025-04-19
   tags: ["ICCV 2025", "Workshop"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     We are organizing the 2nd Workshop on <b>Human-inspired Computer Vision (HiCV)</b>, which will be held in October in Honolulu in conjunction with <b>ICCV 2025</b>. More info <a href="https://sites.google.com/view/hcvworkshop2025" target="_blank">here</a>. Paper submission deadline is <b>June 27, 2025</b>.
 
