@@ -1,3 +1,9 @@
+- date: 2025-10-09
+  tags: ["ACM Computing Surveys", "Paper", "RPM"]
+  show_on_homepage: true
+  content: >-
+    Our paper <b>Remote Respiration Measurement with RGB Cameras: A Review and Benchmark</b> has been accepted for publication in <b>ACM Computing Surveys</b>. See the <a href="https://github.com/phuselab/resPyre" target="_blank">Github</a>.
+
 - date: 2025-09-25
   tags: ["MUM 2025", "Conference", "Chair"]
   show_on_homepage: true
@@ -8,13 +14,13 @@
   tags: ["ACM JOCCH", "Paper", "HVA"]
   show_on_homepage: true
   content: >-
-    Our paper <b>Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</b> has been accepted for publication in the <b>ACM Journal on Computing and Cultural Heritage</a></b>.
+    Our paper <a href="https://dl.acm.org/doi/10.1145/3769091" target="_blank">Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</a> has been accepted for publication in the <b>ACM Journal on Computing and Cultural Heritage</a></b>.
 
 - date: 2025-09-04
   tags: ["Frontiers in AI", "Special Issue", "AC"]
   show_on_homepage: true
   content: >-
-    I am serving as <b>Topic Editor</b> for the special issue "<b>Advances in Automatic Affect Analysis and Synthesis</b>" on <a href="https://www.frontiersin.org/journals/artificial-intelligence" target="_blank">Frontiers in Artificial Intelligence</a> journal.
+    I am serving as <b>Topic Editor</b> for the special issue "<a href="https://www.frontiersin.org/research-topics/74012/advances-in-automatic-affect-analysis-and-synthesis" target="_blank">Advances in Automatic Affect Analysis and Synthesis</a>" on <b>Frontiers in Artificial Intelligence</b> journal.
 
 - date: 2025-09-01
   tags: ["IRCDL 2026", "Conference"]
@@ -32,11 +38,11 @@
   tags: ["ICCV 2025", "Paper", "HVA"]
   show_on_homepage: true
   content: >-
-    Our paper <b>Modeling Human Gaze Behavior with Diffusion Models for Unified Scanpath Prediction</b> has been accepted to <b><a href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></b>  🌺.
+    Our paper <b>Modeling Human Gaze Behavior with Diffusion Models for Unified Scanpath Prediction</b> has been accepted to <b><a href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></b>  🌺. See the <a href="https://aimagelab.github.io/ScanDiff/" target="_blank">Project Page</a>.
 
 - date: 2025-06-16
   tags: ["ICIAP 2025", "Paper", "HVA"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>Unravelling Neurodivergent Gaze Behaviour through Visual Attention Causal Graphs</b> has been accepted to the 23rd International Conference on Image Analysis and Processing <b>(ICIAP 2025)</b>.
 
