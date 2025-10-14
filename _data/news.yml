@@ -2,7 +2,7 @@
   tags: ["ACM Computing Surveys", "Paper", "RPM"]
   show_on_homepage: true
   content: >-
-    Our paper <b>Remote Respiration Measurement with RGB Cameras: A Review and Benchmark</b> has been accepted for publication in <b>ACM Computing Surveys</b>. See the <a href="https://github.com/phuselab/resPyre" target="_blank">Github</a>.
+    Our paper <a href="https://dl.acm.org/doi/10.1145/3771763" target="_blank">Remote Respiration Measurement with RGB Cameras: A Review and Benchmark</a> has been accepted for publication in <b>ACM Computing Surveys</b>. See the <a href="https://github.com/phuselab/resPyre" target="_blank">Github</a>.
 
 - date: 2025-09-25
   tags: ["MUM 2025", "Conference", "Chair"]
