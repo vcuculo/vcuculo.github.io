@@ -14,7 +14,7 @@
   tags: ["ACM JOCCH", "Paper", "HVA"]
   show_on_homepage: true
   content: >-
-    Our paper <a href="https://dl.acm.org/doi/10.1145/3769091" target="_blank">Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</a> has been accepted for publication in the <b>ACM Journal on Computing and Cultural Heritage</a></b>.
+    Our paper <a href="https://dl.acm.org/doi/10.1145/3769091" target="_blank">Sanctuaria-Gaze: A Multimodal Egocentric Dataset for Human Attention Analysis in Religious Sites</a> has been accepted for publication in the <b>ACM Journal on Computing and Cultural Heritage</a></b>. See the <a href="https://github.com/aimagelab/Sanctuaria-Gaze" target="_blank">Code</a> and <a href="https://huggingface.co/datasets/vcuculo/Sanctuaria-Gaze" target="_blank">Dataset</a>.
 
 - date: 2025-09-04
   tags: ["Frontiers in AI", "Special Issue", "AC"]
