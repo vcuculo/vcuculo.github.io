@@ -1,3 +1,9 @@
+- date: 2025-11-13
+  tags: ["Academic", "Qualification"]
+  show_on_homepage: true
+  content: >-
+    Achieved the <b>National Scientific Qualification as Associate Professor</b> for the disciplinary field <b>09/H1 - Information processing systems</b>.
+
 - date: 2025-10-09
   tags: ["ACM Computing Surveys", "Paper", "RPM"]
   show_on_homepage: true
@@ -6,7 +12,7 @@
 
 - date: 2025-09-25
   tags: ["MUM 2025", "Conference", "Chair"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     I will serve as <b>Associate Chair</b> for the Poster Papers Track of the <a href="https://mum-conf.org/2025/" target="_blank">24th International Conference on Mobile and Ubiquitous Multimedia (MUM 2025)</a>, which will be held in Enna, Italy, in December 2025.
 
