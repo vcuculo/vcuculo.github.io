@@ -1,3 +1,9 @@
+- date: 2025-11-14
+  tags: ["IJCV", "Special Issue", "HiCV"]
+  show_on_homepage: true
+  content: >-
+    I am glad to serve as Guest Editor for the <a href="https://link.springer.com/journal/11263/updates/27828406" target="_blank">"Special Issue on Human-Inspired Computer Vision"</a> on the <b>International Journal of Computer Vision</b> (IF 9.3). The deadline for paper submissions is <b>February 1, 2026</b>.
+
 - date: 2025-11-13
   tags: ["Academic", "Qualification"]
   show_on_homepage: true
@@ -36,13 +42,13 @@
 
 - date: 2025-07-31
   tags: ["ELLIS", "Membership"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Honored to have joined the <b><a href="https://ellis.eu/members" target="_blank">ELLIS Society</a></b> as a Member.
 
 - date: 2025-06-25
   tags: ["ICCV 2025", "Paper", "HVA"]
-  show_on_homepage: true
+  show_on_homepage: false
   content: >-
     Our paper <b>Modeling Human Gaze Behavior with Diffusion Models for Unified Scanpath Prediction</b> has been accepted to <b><a href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a></b>  🌺. See the <a href="https://aimagelab.github.io/ScanDiff/" target="_blank">Project Page</a>.
 
