@@ -26,17 +26,46 @@ title: Teaching
           {% for academic_year_courses in grouped_courses %}
           <h5>{{ academic_year_courses.name }}</h5>
 
-          {% for course in academic_year_courses.items %}
-          <p>
-            <b>{{ course.name }} ({{ course.semester }} semester)</b><br>
-            {{ course.where }}<br>
-            <a href="{{ course.link }}">Course website</a>
-          </p>
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <h6 class="text-muted">First Semester</h6>
+              {% assign first_semester = academic_year_courses.items | where: 'semester', 'I' %}
+              {% if first_semester.size > 0 %}
+                {% for course in first_semester %}
+                <p>
+                  <b>{{ course.name }}</b><br>
+                  {{ course.where }}<br>
+                  {% if course.link %}
+                  <a href="{{ course.link }}">Course website</a>
+                  {% endif %}
+                </p>
+                {% endfor %}
+              {% else %}
+                <p class="text-muted fst-italic">No courses</p>
+              {% endif %}
+            </div>
+            <div class="col-md-6">
+              <h6 class="text-muted">Second Semester</h6>
+              {% assign second_semester = academic_year_courses.items | where: 'semester', 'II' %}
+              {% if second_semester.size > 0 %}
+                {% for course in second_semester %}
+                <p>
+                  <b>{{ course.name }}</b><br>
+                  {{ course.where }}<br>
+                  {% if course.link %}
+                  <a href="{{ course.link }}">Course website</a>
+                  {% endif %}
+                </p>
+                {% endfor %}
+              {% else %}
+                <p class="text-muted fst-italic">No courses</p>
+              {% endif %}
+            </div>
+          </div>
 
-          {% if forloop.last == true %}
+          {% if forloop.last == false %}
           <hr>
           {% endif %}
-          {% endfor %}
           {% endfor %}
         </article>
       </section>
