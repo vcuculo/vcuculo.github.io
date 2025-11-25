@@ -1,3 +1,15 @@
+- academic_year: 2025/26
+  semester: II
+  name: Computer Vision and Cognitive Systems
+  where: Department of Engineering, University of Modena and Reggio Emilia
+  link:
+
+- academic_year: 2025/26
+  semester: I
+  name: IOT and 3D Intelligent Systems
+  where: Department of Engineering, University of Modena and Reggio Emilia
+  link: https://moodle.unimore.it/course/view.php?id=17431
+
 - academic_year: 2024/25
   semester: I
   name: IOT and 3D Intelligent Systems
