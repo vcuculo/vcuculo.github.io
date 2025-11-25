@@ -20,7 +20,7 @@ title: News Archive
                 <!-- Post content-->
                 <h2 class="mb-4 fw-semibold">News</h2>
 
-                <ul class="list-group list-group-flush">
+                <ul id="news-list" class="list-group list-group-flush">
                     {% assign latestNews = site.data.news | sort: 'date' | reverse %}
                     {% for news in latestNews %}
                     <li class="list-group-item list-group-item-action py-3">
@@ -43,10 +43,93 @@ title: News Archive
                     </li>
                     {% endfor %}
                 </ul>
+                <nav id="news-pagination" class="mt-4"></nav>
             </section>
         </div>
     </main>
     {% include footer.html %}
+    <script>
+    (function() {
+        const perPage = 10;
+        const list = document.getElementById('news-list');
+        const pagination = document.getElementById('news-pagination');
+        if (!list || !pagination) return;
+        
+        const items = Array.from(list.querySelectorAll('li.list-group-item'));
+        const totalPages = Math.ceil(items.length / perPage);
+        
+        if (totalPages <= 1) {
+            pagination.style.display = 'none';
+            return;
+        }
+        
+        let currentPage = 1;
+
+        function showPage(page) {
+            currentPage = page;
+            const start = (page - 1) * perPage;
+            const end = start + perPage;
+            
+            items.forEach((item, i) => {
+                item.style.display = (i >= start && i < end) ? '' : 'none';
+            });
+            
+            renderControls();
+            scrollToTop();
+        }
+
+        function scrollToTop() {
+            const heading = document.querySelector('h2.fw-semibold');
+            if (heading) {
+                const top = heading.getBoundingClientRect().top + window.scrollY - 20;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        }
+
+        function createButton(label, page, isActive = false, isDisabled = false) {
+            const btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'btn btn-sm mx-1 ' + (isActive ? 'btn-secondary' : 'btn-outline-secondary');
+            btn.textContent = label;
+            btn.disabled = isDisabled;
+            
+            if (!isDisabled) {
+                btn.addEventListener('click', () => showPage(page));
+            }
+            
+            return btn;
+        }
+
+        function renderControls() {
+            pagination.innerHTML = '';
+            const wrapper = document.createElement('div');
+            wrapper.className = 'd-flex flex-wrap align-items-center';
+
+            // Previous button
+            wrapper.appendChild(createButton('Prev', currentPage - 1, false, currentPage === 1));
+
+            // Page numbers
+            for (let p = 1; p <= totalPages; p++) {
+                wrapper.appendChild(createButton(p, p, p === currentPage));
+            }
+
+            // Next button
+            wrapper.appendChild(createButton('Next', currentPage + 1, false, currentPage === totalPages));
+
+            // Info text
+            const info = document.createElement('span');
+            info.className = 'ms-3 small text-muted';
+            const start = (currentPage - 1) * perPage + 1;
+            const end = Math.min(currentPage * perPage, items.length);
+            info.textContent = `Showing ${start}-${end} of ${items.length}`;
+            wrapper.appendChild(info);
+
+            pagination.appendChild(wrapper);
+        }
+
+        showPage(1);
+    })();
+    </script>
 </body>
 
 </html>
