@@ -1,0 +1,81 @@
+---
+title: Thesis Proposals
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+
+<body class="d-flex flex-column min-vh-100 bg-light text-dark">
+    <!-- Responsive navbar-->
+    {% include navbar.html %}
+    <!-- Page content-->
+    <main class="container my-5 flex-grow-1">
+        <div class="row">
+            <aside class="col-xl-2 col-md-4 col-12">
+                {% include about.html %}
+            </aside>
+
+            <section class="col-xl-10 col-md-8 col-12">
+                <!-- Post content-->
+                <article>
+                    <h2 class="mb-4 fw-semibold">Open Thesis Proposals</h2>
+                    <p>
+                        Below is a <strong>selection of thesis opportunities</strong> for Bachelor's and Master's students across a broad set of research topics, including <strong>Computer Vision</strong>, <strong>Human Visual Attention</strong>, <strong>Affective Computing</strong>, and <strong>Remote Physiological Measurement</strong>.
+                        <br>
+                        Thesis projects can naturally evolve into PhD positions, research contracts, or collaborations with industry partners.
+                        <br>
+                        <strong>Student-initiated thesis proposals are also welcome</strong>.
+                    </p>
+
+                    <div class="alert alert-info my-4" role="alert">
+                        <p class="mb-0">
+                            <i class="fa-solid fa-circle-info me-2"></i>
+                            If you're <strong>interested in any of these topics</strong> and want to know more details or would like to discuss a <strong>custom thesis</strong> project, 
+                            <strong>contact me via email</strong> to schedule an appointment.
+                        </p>
+                    </div>
+                    {% assign grouped_thesis = site.data.thesis | group_by: 'type' %}
+                    
+                    {% for thesis_group in grouped_thesis %}
+                    <div class="mb-5">
+                        <h4 class="mb-3">{{ thesis_group.name | capitalize}}'s Thesis</h4>
+                        <div class="row" id="thesis-list">
+                            {% for thesis in thesis_group.items %}
+                            <div class="col-md-6 mb-4">
+                                <div class="card h-100 shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ thesis.title }}</h5>
+                                        <p class="card-text">{{ thesis.description }}</p>
+                                        <div class="text-end mt-3">
+                                            {% if thesis.status %}
+                                                <span class="badge bg-success me-2">{{thesis.status | capitalize}}</span>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </article>
+            </section>
+        </div>
+    </main>
+    {% include footer.html %}
+</body>
+
+<script>
+  const list = document.getElementById('thesis-list');
+  const items = Array.from(list.children);
+  // Shuffle array
+  for (let i = items.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [items[i], items[j]] = [items[j], items[i]];
+  }
+  // Clear list and append shuffled items
+  list.innerHTML = '';
+  items.forEach(item => list.appendChild(item));
+</script>
+</html>

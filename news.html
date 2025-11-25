@@ -27,17 +27,21 @@ title: News Archive
                         <div class="row">
                             <div class="col-lg-2 col-md-4 col-12 mb-2">
                                 <a class="badge bg-news-when text-decoration-none link-light">{{ news.date |
-                                    date_to_string: "ordinal" }}</a><br>
-                                {% if news.tags %}
-                                    {% for tag in news.tags %}
-                                        <a class="badge bg-news-where text-decoration-none link-light">{{ tag }}</a>
-                                    {% endfor %}
-                                {% endif %}
+                                    date_to_string: "ordinal" }}</a>
                             </div>
+                        </div>
+                        <div class="row">
                             <div class="col-lg-10 col-md-8 col-12">
                                 <p class="mb-0">
                                     {{ news.content }}
                                 </p>
+                            </div>
+                            <div class="col-lg-2 col-md-4 col-12">
+                                {% if news.tags %}
+                                {% for tag in news.tags %}
+                                <a class="badge bg-news-where text-decoration-none link-light">{{ tag }}</a>
+                                {% endfor %}
+                                {% endif %}
                             </div>
                         </div>
                     </li>
@@ -49,86 +53,82 @@ title: News Archive
     </main>
     {% include footer.html %}
     <script>
-    (function() {
-        const perPage = 10;
-        const list = document.getElementById('news-list');
-        const pagination = document.getElementById('news-pagination');
-        if (!list || !pagination) return;
-        
-        const items = Array.from(list.querySelectorAll('li.list-group-item'));
-        const totalPages = Math.ceil(items.length / perPage);
-        
-        if (totalPages <= 1) {
-            pagination.style.display = 'none';
-            return;
-        }
-        
-        let currentPage = 1;
+        (function () {
+            const perPage = 10;
+            const list = document.getElementById('news-list');
+            const pagination = document.getElementById('news-pagination');
+            if (!list || !pagination) return;
 
-        function showPage(page) {
-            currentPage = page;
-            const start = (page - 1) * perPage;
-            const end = start + perPage;
-            
-            items.forEach((item, i) => {
-                item.style.display = (i >= start && i < end) ? '' : 'none';
-            });
-            
-            renderControls();
-            scrollToTop();
-        }
+            const items = Array.from(list.querySelectorAll('li.list-group-item'));
+            const totalPages = Math.ceil(items.length / perPage);
 
-        function scrollToTop() {
-            const heading = document.querySelector('h2.fw-semibold');
-            if (heading) {
-                const top = heading.getBoundingClientRect().top + window.scrollY - 20;
-                window.scrollTo({ top, behavior: 'smooth' });
-            }
-        }
-
-        function createButton(label, page, isActive = false, isDisabled = false) {
-            const btn = document.createElement('button');
-            btn.type = 'button';
-            btn.className = 'btn btn-sm mx-1 ' + (isActive ? 'btn-secondary' : 'btn-outline-secondary');
-            btn.textContent = label;
-            btn.disabled = isDisabled;
-            
-            if (!isDisabled) {
-                btn.addEventListener('click', () => showPage(page));
-            }
-            
-            return btn;
-        }
-
-        function renderControls() {
-            pagination.innerHTML = '';
-            const wrapper = document.createElement('div');
-            wrapper.className = 'd-flex flex-wrap align-items-center';
-
-            // Previous button
-            wrapper.appendChild(createButton('Prev', currentPage - 1, false, currentPage === 1));
-
-            // Page numbers
-            for (let p = 1; p <= totalPages; p++) {
-                wrapper.appendChild(createButton(p, p, p === currentPage));
+            if (totalPages <= 1) {
+                pagination.style.display = 'none';
+                return;
             }
 
-            // Next button
-            wrapper.appendChild(createButton('Next', currentPage + 1, false, currentPage === totalPages));
+            let currentPage = 1;
 
-            // Info text
-            const info = document.createElement('span');
-            info.className = 'ms-3 small text-muted';
-            const start = (currentPage - 1) * perPage + 1;
-            const end = Math.min(currentPage * perPage, items.length);
-            info.textContent = `Showing ${start}-${end} of ${items.length}`;
-            wrapper.appendChild(info);
+            function showPage(page) {
+                currentPage = page;
+                const start = (page - 1) * perPage;
+                const end = start + perPage;
 
-            pagination.appendChild(wrapper);
-        }
+                items.forEach((item, i) => {
+                    item.style.display = (i >= start && i < end) ? '' : 'none';
+                });
 
-        showPage(1);
-    })();
+                renderControls();
+                scrollToTop();
+            }
+
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
+            function createButton(label, page, isActive = false, isDisabled = false) {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'btn btn-sm mx-1 ' + (isActive ? 'btn-secondary' : 'btn-outline-secondary');
+                btn.textContent = label;
+                btn.disabled = isDisabled;
+
+                if (!isDisabled) {
+                    btn.addEventListener('click', () => showPage(page));
+                }
+
+                return btn;
+            }
+
+            function renderControls() {
+                pagination.innerHTML = '';
+                const wrapper = document.createElement('div');
+                wrapper.className = 'd-flex flex-wrap align-items-center';
+
+                // Previous button
+                wrapper.appendChild(createButton('Prev', currentPage - 1, false, currentPage === 1));
+
+                // Page numbers
+                for (let p = 1; p <= totalPages; p++) {
+                    wrapper.appendChild(createButton(p, p, p === currentPage));
+                }
+
+                // Next button
+                wrapper.appendChild(createButton('Next', currentPage + 1, false, currentPage === totalPages));
+
+                // Info text
+                const info = document.createElement('span');
+                info.className = 'ms-3 small text-muted';
+                const start = (currentPage - 1) * perPage + 1;
+                const end = Math.min(currentPage * perPage, items.length);
+                info.textContent = `Showing ${start}-${end} of ${items.length}`;
+                wrapper.appendChild(info);
+
+                pagination.appendChild(wrapper);
+            }
+
+            showPage(1);
+        })();
     </script>
 </body>
 

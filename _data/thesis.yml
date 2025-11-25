@@ -1,0 +1,59 @@
+- type: master
+  title: "Open-Vocabulary Scanpath Prediction"
+  description: "Study how natural language descriptions or task-oriented instructions can guide models to predict where humans look in visual scenes. The work aims to bridge vision and language to generate human-like scanpaths that are aligned with contextual or semantic cues."
+  status: available
+
+- type: master
+  title: "Neuro-Inspired Models for Scanpath Prediction"
+  description: "Explore bio-inspired computational models that emulate human visual attention and eye-movement behavior. The thesis focuses on understanding the principles behind human gaze dynamics and implementing models that produce realistic visual exploration patterns."
+  status: available
+
+- type: master
+  title: "Concept-Based Learning for Visual Attention"
+  description: "Investigate methods that leverage structured or hierarchical representations of visual concepts to guide attention modeling. The goal is to understand how concept-level knowledge can influence where and how humans look in complex visual environments."
+  status: available
+
+- type: master
+  title: "Social Interaction Understanding in Egocentric Videos"
+  description: "Analyze first-person videos to understand social interactions, such as when people are looking at or speaking to the camera wearer. The work emphasizes understanding human attention and social cues from an egocentric perspective."
+  status: available
+
+- type: master
+  title: "Gaze-Aided Adaptive Segmentation"
+  description: "Develop adaptive segmentation methods that leverage gaze information to improve the delineation of objects and regions of interest. The system should be able to dynamically prioritize areas that attract human attention, enhancing segmentation performance in complex scenes."
+  status: available
+
+- type: master
+  title: "Active Visual Exploration"
+  description: "Study computational approaches for active visual exploration, focusing on how humans selectively gather information from visual environments. The thesis aims to develop models that emulate human strategies for efficiently exploring and understanding scenes."
+  status: available
+
+- type: master
+  title: "Diverse Generative Models for Scanpath Synthesis"
+  description: "Investigate generative approaches capable of producing multiple plausible and human-like eye-movement sequences. The work explores methods to capture the variability and diversity of human visual exploration across different scenes and tasks."
+  status: available
+
+- type: bachelor
+  title: "Assessing Multimodal AI in Visual Perception Tasks"
+  description: "Systematically evaluate the abilities of multimodal AI systems to perform visual perception and reasoning tasks. The goal is to understand their strengths, limitations, and potential applications in areas such as attention prediction and scene understanding."
+  status: available
+
+- type: master
+  title: "Context-Aware Gaze-Guided Segmentation"
+  description: "Develop gaze-guided segmentation systems that take into account the context, user intentions, and relationships between scene elements. The thesis explores adaptive methods that prioritize relevant visual regions based on human attention and scene semantics."
+  status: available
+
+- type: bachelor
+  title: "Refactoring and Modernization of the pyVHR Library"
+  description: "Improve the structure, maintainability, and usability of the open-source pyVHR library for video-based physiological measurement. The work includes addressing open issues, enhancing documentation, and improving the overall quality and reliability of the software."
+  status: available
+
+- type: master
+  title: "Gaze-Based Indicators of Stress and Cognitive Workload"
+  description: "Analyze eye-movement behavior to investigate its potential as an indicator of cognitive workload and stress. The work focuses on understanding how fixations, saccades, and gaze patterns reflect mental states during visual tasks."
+  status: available
+
+- type: master
+  title: "Vision Transformer for Face Motion Analysis and State Classification"
+  description: "Use Vision Transformer models to analyze subtle facial motions and expressions in video data to classify different physiological or emotional states. The thesis aims to explore the relationship between facial dynamics and underlying cognitive or affective conditions."
+  status: available
