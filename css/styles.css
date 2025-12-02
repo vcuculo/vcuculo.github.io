@@ -10849,3 +10849,14 @@ a:hover {
   border: 1px solid var(--white);
   max-width: 175px;
 }
+
+.thesis-accordion-btn {
+    background-color: #fff3cd;
+    color: #664d03;
+    border-color: #ffeeba;
+}
+
+.thesis-accordion-btn:not(.collapsed) {
+    background-color: #ffe8a1;
+    color: #664d03;
+}
